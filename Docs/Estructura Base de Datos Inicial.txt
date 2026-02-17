@@ -1,0 +1,111 @@
+        A. -- Tabla: ark_company 
+            1. emp_IDauto INTEGER PRIMARY KEY AUTOINCREMENT, 
+            2. emp_code TEXT CONSTRAINT Requerido NOT NULL ON CONFLICT ROLLBACK, 
+            3. emp_description TEXT, 
+            4. emp_tax_id TEXT, 
+            5. emp_Status INTEGER DEFAULT 1, 
+            6. emp_tax_address TEXT, 
+            7. emp_local_address TEXT, emp_Telefono1 TEXT, 
+            8. emp_mobile TEXT, 
+            9. emp_legal_representative TEXT, 
+            10. emp_legal_representative_id  TEXT,
+            11. emp_phone TEXT, 
+            12. emp_contact_email TEXT, 
+            13. emp_company_email TEXT, 
+            14. emp_tipo_taxpayer INTEGER, 
+            15. emp_create_date TEXT DEFAULT (datetime('now')), 
+            16. emp_systemdate TEXT, 
+            17. emp_systemtime TEXT, 
+            18. emp_namemachine TEXT, 
+            19. emp_usercreator TEXT, 
+            20. emp_lastupdatedate TEXT, 
+            21. emp_lastupdatetime TEXT, 
+            22. emp_lastmachine TEXT, 
+            23. emp_userlastupdate TEXT;
+               
+        B. -- Tabla: ark_clients
+            1. clt_IDauto INTEGER PRIMARY KEY AUTOINCREMENT, 
+            2. clt_code TEXT NOT NULL, 
+            3. clt_description TEXT, 
+            4. clt_tax_id TEXT, 
+            5. clt_Status INTEGER DEFAULT 1, 
+            6. clt_tax_address TEXT, 
+            7. clt_local_address TEXT, 
+            8. clt_phone TEXT, 
+            9. clt_mobile TEXT, 
+            10. clt_legal_representative TEXT, 
+            11. clt_legal_representative_id TEXT, 
+            12. clt_contact_phone TEXT, 
+            13. clt_contact_email TEXT, 
+            14. clt_client_email TEXT, 
+            15. clt_tipo_taxpayer INTEGER, 
+            16. clt_Origen TEXT, 
+            17. clt_codeOrigen TEXT, 
+            18. clt_create_date TEXT DEFAULT (datetime('now')), 
+            19. clt_systemdate TEXT, 
+            20. clt_systemtime TEXT, 
+            21. clt_namemachine TEXT, 
+            22. clt_usercreator TEXT, 
+            23. clt_lastupdatedate TEXT, 
+            24. clt_lastupdatetime TEXT, 
+            25. clt_lastmachine TEXT, 
+            26. clt_userlastupdate TEXT;
+        C. --Tabla: ark_levels
+            1. lvs_IDauto INTEGER PRIMARY KEY AUTOINCREMENT, 
+            2. lvs_code TEXT NOT NULL, 
+            3. lvs_description TEXT, 
+            4. lvs_descriptionTec TEXT,
+            5. lvs_level_type TEXT,
+            6. lvs_level_parente TEXT,
+            7. lvs_Number_of_digits TEXT,
+            8. lvs_Special_characters TEXT,
+            9. lvs_Level_separator TEXT,
+            10. lvs_Alphanumeric TEXT,
+            11. lvs_Status INTEGER DEFAULT 1, 
+            12. lvs_create_date TEXT DEFAULT (datetime('now')), 
+            13. lvs_systemdate TEXT, 
+            14. lvs_systemtime TEXT,
+            15. lvs_namemachine TEXT,
+            16. lvs_usercreator TEXT,
+            17. lvs_lastupdatedate TEXT,
+            18. lvs_lastupdatetime TEXT,
+            19. lvs_lastmachine TEXT,
+            20. lvs_userlastupdate TEXT;
+               
+        D. --Tabla: ark_auto_code_generator
+            1. acg_Idauto INTEGER PRIMARY KEY AUTOINCREMENT,
+            2. acg_codeid TEXT NOT NULL, 
+            3. acg_first_level TEXT,
+            4. acg_second_level TEXT,
+            5. acg_third_level TEXT,
+            6. acg_fourth_level TEXT,
+            7. acg_fifth_level TEXT, 
+            8. acg_auto_code TEXT,
+            9. acg_create_date TEXT DEFAULT (datetime('now')), 
+            10. acg_systemdate TEXT, 
+            11. acg_systemtime TEXT,
+            12. acg_namemachine TEXT,
+            13. acg_usercreator TEXT,
+            14. acg_lastupdatedate TEXT,
+            15. acg_lastupdatetime TEXT,
+            16. acg_lastmachine TEXT,
+            17. acg_userlastupdate TEXT;
+        E. --Tabla: ark_users
+            1. usr_IDauto (INTEGER) PRIMARY KEY AUTOINCREMENT
+            2. usr_Codigo(TEXT)
+            3. usr_Descripcion(TEXT) =
+            4. usr_Status(INTEGER) =
+            5. usr_Telefono(TEXT) =
+            6. usr_Cargo(TEXT) =
+            7. usr_Rol(TEXT) =
+            8. usr_Emailuser(TEXT) =
+            9. usr_Password(TEXT) =
+            10. usr_FechaCreacion(TEXT) DEFAULT (datetime('now')) =
+            11. (emy_IDauto)); usr_systemdate(TEXT) = 
+            12. f_system usr_systemtime(TEXT) =
+            13. h_system usr_namemachine(TEXT) = 
+            14. computer_name usr_lastupdatedate(TEXT) =
+            15. last_f_systems usr_lastupdatetime(TEXT) = 
+            16. last_h_systems usr_lastmachine(TEXT) =
+            17. last_computer_name usr_usercreator(TEXT) = 
+            18. user usr_userlastupdate(TEXT) = last_user

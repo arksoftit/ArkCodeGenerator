@@ -1,0 +1,1457 @@
+.:
+total 19181
+-rw-r--r-- 1 juanep 197121     5175 feb. 15 16:12 arkcogen.py
+drwxr-xr-x 1 juanep 197121        0 feb. 13 21:19 ArkCoGenDataBese/
+drwxr-xr-x 1 juanep 197121        0 feb. 13 21:19 assets/
+-rw-r--r-- 1 juanep 197121    10210 oct. 19 22:28 database_manager.py
+-rw-r--r-- 1 juanep 197121     2496 ene.  8 23:14 dialogos.py
+drwxr-xr-x 1 juanep 197121        0 feb. 15 16:12 Docs/
+-rw-r--r-- 1 juanep 197121        0 feb. 15 17:52 EstructuraContenedor_ArkCoGen
+-rw-r--r-- 1 juanep 197121   298602 feb. 15 13:58 Main.ui
+-rw-r--r-- 1 juanep 197121      137 feb. 13 23:09 README.md
+-rw-r--r-- 1 juanep 197121     5956 feb. 14 16:39 resources.qrc
+-rw-r--r-- 1 juanep 197121 19150445 feb. 14 16:52 resources_rc.py
+-rw-r--r-- 1 juanep 197121   152143 feb. 15 13:58 ui_Main.py
+drwxr-xr-x 1 juanep 197121        0 feb. 13 22:29 venv/
+
+./ArkCoGenDataBese:
+total 0
+
+./assets:
+total 32
+drwxr-xr-x 1 juanep 197121 0 feb. 13 21:19 icons/
+drwxr-xr-x 1 juanep 197121 0 feb. 14 16:39 images/
+drwxr-xr-x 1 juanep 197121 0 feb. 13 21:19 styles/
+
+./assets/icons:
+total 1706
+-rw-r--r-- 1 juanep 197121     888 ago. 27 22:15 audio01.svg
+-rw-r--r-- 1 juanep 197121    1221 ago. 27 23:22 bluetooth02.svg
+-rw-r--r-- 1 juanep 197121     993 may. 22  2025 bluetootht.svg
+-rw-r--r-- 1 juanep 197121     857 ago. 22 23:48 Clear01.svg
+-rw-r--r-- 1 juanep 197121    2565 ago. 27 22:20 com01.svg
+-rw-r--r-- 1 juanep 197121     748 ago. 27 23:20 com02.svg
+-rw-r--r-- 1 juanep 197121    1557 may. 22  2025 confi01.svg
+-rw-r--r-- 1 juanep 197121    1717 may. 22  2025 cpu01.svg
+-rw-r--r-- 1 juanep 197121    4136 ago. 27 17:01 cpu02.svg
+-rw-r--r-- 1 juanep 197121    7714 ago. 27 12:00 filesettings_102180.svg
+-rw-r--r-- 1 juanep 197121     270 may. 22  2025 fi-sr-add.svg
+-rw-r--r-- 1 juanep 197121     480 may. 22  2025 fi-sr-angle-circle-down.svg
+-rw-r--r-- 1 juanep 197121     481 may. 22  2025 fi-sr-angle-circle-left.svg
+-rw-r--r-- 1 juanep 197121     478 may. 22  2025 fi-sr-angle-circle-right.svg
+-rw-r--r-- 1 juanep 197121     478 may. 22  2025 fi-sr-angle-circle-up.svg
+-rw-r--r-- 1 juanep 197121     515 may. 22  2025 fi-sr-angle-double-left.svg
+-rw-r--r-- 1 juanep 197121     520 may. 22  2025 fi-sr-angle-double-right.svg
+-rw-r--r-- 1 juanep 197121     694 may. 22  2025 fi-sr-angle-double-small-down.svg
+-rw-r--r-- 1 juanep 197121     487 may. 22  2025 fi-sr-angle-double-small-left.svg
+-rw-r--r-- 1 juanep 197121     482 may. 22  2025 fi-sr-angle-double-small-right.svg
+-rw-r--r-- 1 juanep 197121     710 may. 22  2025 fi-sr-angle-double-small-up.svg
+-rw-r--r-- 1 juanep 197121     336 may. 22  2025 fi-sr-angle-down.svg
+-rw-r--r-- 1 juanep 197121     336 may. 22  2025 fi-sr-angle-left.svg
+-rw-r--r-- 1 juanep 197121     332 may. 22  2025 fi-sr-angle-right.svg
+-rw-r--r-- 1 juanep 197121     330 may. 22  2025 fi-sr-angle-small-down.svg
+-rw-r--r-- 1 juanep 197121     299 may. 22  2025 fi-sr-angle-small-left.svg
+-rw-r--r-- 1 juanep 197121     316 may. 22  2025 fi-sr-angle-small-right.svg
+-rw-r--r-- 1 juanep 197121     313 may. 22  2025 fi-sr-angle-small-up.svg
+-rw-r--r-- 1 juanep 197121     537 may. 22  2025 fi-sr-angle-square-down.svg
+-rw-r--r-- 1 juanep 197121     537 may. 22  2025 fi-sr-angle-square-left.svg
+-rw-r--r-- 1 juanep 197121     533 may. 22  2025 fi-sr-angle-square-right.svg
+-rw-r--r-- 1 juanep 197121     533 may. 22  2025 fi-sr-angle-square-up.svg
+-rw-r--r-- 1 juanep 197121     697 may. 22  2025 fi-sr-angles-up-down.svg
+-rw-r--r-- 1 juanep 197121     330 may. 22  2025 fi-sr-angle-up.svg
+-rw-r--r-- 1 juanep 197121     388 may. 22  2025 fi-sr-arrow-down-left.svg
+-rw-r--r-- 1 juanep 197121     704 may. 22  2025 fi-sr-arrow-up-right-from-square.svg
+-rw-r--r-- 1 juanep 197121    1268 may. 22  2025 fi-sr-catalog-alt.svg
+-rw-r--r-- 1 juanep 197121     757 may. 22  2025 fi-sr-category-alt.svg
+-rw-r--r-- 1 juanep 197121     638 may. 22  2025 fi-sr-circle-quarters-alt.svg
+-rw-r--r-- 1 juanep 197121     639 may. 22  2025 fi-sr-circle-x.svg
+-rw-r--r-- 1 juanep 197121     610 may. 22  2025 fi-sr-circle-xmark.svg
+-rw-r--r-- 1 juanep 197121     765 may. 22  2025 fi-sr-code-pull-request.svg
+-rw-r--r-- 1 juanep 197121     877 may. 22  2025 fi-sr-code-pull-request-closed.svg
+-rw-r--r-- 1 juanep 197121     546 may. 22  2025 fi-sr-code-pull-request-draft.svg
+-rw-r--r-- 1 juanep 197121     648 may. 22  2025 fi-sr-computer-classic.svg
+-rw-r--r-- 1 juanep 197121     377 may. 22  2025 fi-sr-cross-small.svg
+-rw-r--r-- 1 juanep 197121    1689 may. 22  2025 fi-sr-currency.svg
+-rw-r--r-- 1 juanep 197121     601 may. 22  2025 fi-sr-delete-document.svg
+-rw-r--r-- 1 juanep 197121     901 may. 22  2025 fi-sr-department-structure.svg
+-rw-r--r-- 1 juanep 197121    1111 may. 22  2025 fi-sr-disk.svg
+-rw-r--r-- 1 juanep 197121     386 may. 22  2025 fi-sr-dropdown.svg
+-rw-r--r-- 1 juanep 197121     671 may. 22  2025 fi-sr-drop-down.svg
+-rw-r--r-- 1 juanep 197121     737 may. 22  2025 fi-sr-dropdown-bar.svg
+-rw-r--r-- 1 juanep 197121     402 may. 22  2025 fi-sr-employee-man-alt.svg
+-rw-r--r-- 1 juanep 197121     524 may. 22  2025 fi-sr-expand.svg
+-rw-r--r-- 1 juanep 197121     483 may. 22  2025 fi-sr-expand-arrows.svg
+-rw-r--r-- 1 juanep 197121     602 may. 22  2025 fi-sr-expand-arrows-alt.svg
+-rw-r--r-- 1 juanep 197121     688 may. 22  2025 fi-sr-file-edit.svg
+-rw-r--r-- 1 juanep 197121    1074 may. 22  2025 fi-sr-foreign-language-audio.svg
+-rw-r--r-- 1 juanep 197121    1027 may. 22  2025 fi-sr-home.svg
+-rw-r--r-- 1 juanep 197121     593 may. 22  2025 fi-sr-house-chimney-user.svg
+-rw-r--r-- 1 juanep 197121     386 may. 22  2025 fi-sr-list.svg
+-rw-r--r-- 1 juanep 197121     529 may. 22  2025 fi-sr-menu-dots.svg
+-rw-r--r-- 1 juanep 197121     529 may. 22  2025 fi-sr-menu-dots-vertical.svg
+-rw-r--r-- 1 juanep 197121     582 may. 22  2025 fi-sr-person-chalkboard.svg
+-rw-r--r-- 1 juanep 197121     650 may. 22  2025 fi-sr-person-shelter.svg
+-rw-r--r-- 1 juanep 197121     453 may. 22  2025 fi-sr-person-simple.svg
+-rw-r--r-- 1 juanep 197121     711 may. 22  2025 fi-sr-rectangle-list.svg
+-rw-r--r-- 1 juanep 197121     557 may. 22  2025 fi-sr-resources.svg
+-rw-r--r-- 1 juanep 197121     748 may. 22  2025 fi-sr-search.svg
+-rw-r--r-- 1 juanep 197121    1382 may. 22  2025 fi-sr-settings.svg
+-rw-r--r-- 1 juanep 197121    1757 may. 22  2025 fi-sr-sql-server.svg
+-rw-r--r-- 1 juanep 197121     500 may. 22  2025 fi-sr-square-ellipsis.svg
+-rw-r--r-- 1 juanep 197121     497 may. 22  2025 fi-sr-square-ellipsis-vertical.svg
+-rw-r--r-- 1 juanep 197121     718 may. 22  2025 fi-sr-tasks.svg
+-rw-r--r-- 1 juanep 197121     278 may. 22  2025 fi-sr-window-maximize.svg
+-rw-r--r-- 1 juanep 197121     242 may. 22  2025 fi-sr-window-minimize.svg
+-rw-r--r-- 1 juanep 197121   10293 ago. 22 23:31 Grafica01.svg
+-rw-r--r-- 1 juanep 197121    2985 ago. 22 23:14 hdd.svg
+-rw-r--r-- 1 juanep 197121    7166 ago. 27 20:59 hdd03.svg
+-rw-r--r-- 1 juanep 197121    1806 ago. 22 23:15 hdd2.svg
+-rw-r--r-- 1 juanep 197121    1590 ago. 22 23:34 HDM!.svg
+-rw-r--r-- 1 juanep 197121 1359625 abr. 14  2025 IRMIAN_Technology_03.png
+-rw-r--r-- 1 juanep 197121   36294 ago. 27 17:45 mbd_00.png
+-rw-r--r-- 1 juanep 197121   12634 ago. 22 23:31 mbd_01.svg
+-rw-r--r-- 1 juanep 197121    9854 ago. 27 17:08 mbd_02.png
+-rw-r--r-- 1 juanep 197121   12634 ago. 27 17:05 mbd_02.svg
+-rw-r--r-- 1 juanep 197121    1684 ago. 22 23:24 netword01.svg
+-rw-r--r-- 1 juanep 197121     828 ago. 27 22:13 nic01.svg
+-rw-r--r-- 1 juanep 197121    1306 ago. 22 23:20 OS01.svg
+-rw-r--r-- 1 juanep 197121    1047 ago. 22 23:21 OS02.svg
+-rw-r--r-- 1 juanep 197121    1763 ago. 22 23:18 PC01.svg
+-rw-r--r-- 1 juanep 197121    1369 ago. 22 23:19 PC02.svg
+-rw-r--r-- 1 juanep 197121     988 ago. 26 19:01 pcnetwork_102250.svg
+-rw-r--r-- 1 juanep 197121    2401 ago. 22 23:32 RAM.svg
+-rw-r--r-- 1 juanep 197121   10764 ago. 27 20:57 Ram01.svg
+-rw-r--r-- 1 juanep 197121     670 ago. 26 18:42 Red01.png
+-rw-r--r-- 1 juanep 197121     988 ago. 26 18:42 Red01.svg
+-rw-r--r-- 1 juanep 197121    2556 ago. 22 23:36 Regional01.svg
+-rw-r--r-- 1 juanep 197121    2674 ago. 27 22:28 sys01.svg
+-rw-r--r-- 1 juanep 197121    1046 ago. 27 22:33 usb03.svg
+-rw-r--r-- 1 juanep 197121    1511 ago. 22 23:15 usb1.svg
+-rw-r--r-- 1 juanep 197121    1044 ago. 22 23:16 usb2.svg
+-rw-r--r-- 1 juanep 197121    1065 ago. 22 23:22 Wifi01.svg
+
+./assets/images:
+total 15372
+-rw-r--r-- 1 juanep 197121    11152 jul. 10  2025 ark.ico
+-rw-r--r-- 1 juanep 197121    45551 feb.  1  2025 ark.png
+-rw-r--r-- 1 juanep 197121     7102 feb. 14 13:03 ArkCodGen.png
+-rw-r--r-- 1 juanep 197121    67999 feb. 14 16:19 ArkCodGenNew.png
+-rw-r--r-- 1 juanep 197121    64927 feb. 14 16:37 ArkCodGenNewAlzada.png
+-rw-r--r-- 1 juanep 197121    64927 feb. 14 16:39 ArkCodGenNewAzda.png
+-rw-r--r-- 1 juanep 197121    73403 feb. 11  2023 arklogo.png
+-rw-r--r-- 1 juanep 197121 12582966 nov. 29 21:45 ArkToolsPC_02.bmp
+-rw-r--r-- 1 juanep 197121  1749449 ago. 23 17:54 ArkToolsPC_02.png
+-rw-r--r-- 1 juanep 197121     3146 feb. 14 13:03 ArlCodGen.svg
+-rw-r--r-- 1 juanep 197121     7254 nov. 16 17:17 ArlToolsPC2.png
+-rw-r--r-- 1 juanep 197121     3094 nov. 16 17:21 ArlToolsPC2.svg
+-rw-r--r-- 1 juanep 197121   977194 feb. 14 13:49 CodeGenerator.png
+-rw-r--r-- 1 juanep 197121    54343 feb. 14 13:49 CodeGenerator_small.png
+-rw-r--r-- 1 juanep 197121     1619 may. 22  2025 fi-sr-bug-report.svg
+
+./assets/styles:
+total 4
+-rw-r--r-- 1 juanep 197121 3783 ene.  9 15:31 StylsForms202601.css
+
+./Docs:
+total 9
+-rw-r--r-- 1 juanep 197121  690 feb. 15 15:36 Diccionario termnos.txt
+-rw-r--r-- 1 juanep 197121 5700 feb. 14 00:48 Proyecto_Inf.md
+drwxr-xr-x 1 juanep 197121    0 feb. 15 16:22 TXT/
+
+./Docs/TXT:
+total 160
+-rw-r--r-- 1 juanep 197121   5175 feb. 15 16:13 arkcogen.txt
+-rw-r--r-- 1 juanep 197121 152143 feb. 15 16:22 ui_Main.txt
+
+./venv:
+total 5
+drwxr-xr-x 1 juanep 197121   0 feb. 13 22:29 Include/
+drwxr-xr-x 1 juanep 197121   0 feb. 13 22:29 Lib/
+-rw-r--r-- 1 juanep 197121 341 feb. 13 22:29 pyvenv.cfg
+drwxr-xr-x 1 juanep 197121   0 feb. 13 22:29 Scripts/
+
+./venv/Include:
+total 0
+
+./venv/Lib:
+total 0
+drwxr-xr-x 1 juanep 197121 0 feb. 13 22:29 site-packages/
+
+./venv/Lib/site-packages:
+total 8
+drwxr-xr-x 1 juanep 197121 0 feb. 13 22:29 pip/
+drwxr-xr-x 1 juanep 197121 0 feb. 13 22:29 pip-25.0.1.dist-info/
+
+./venv/Lib/site-packages/pip:
+total 18
+-rw-r--r-- 1 juanep 197121  357 feb. 13 22:29 __init__.py
+-rw-r--r-- 1 juanep 197121  854 feb. 13 22:29 __main__.py
+-rw-r--r-- 1 juanep 197121 1450 feb. 13 22:29 __pip-runner__.py
+drwxr-xr-x 1 juanep 197121    0 feb. 13 22:29 __pycache__/
+drwxr-xr-x 1 juanep 197121    0 feb. 13 22:29 _internal/
+drwxr-xr-x 1 juanep 197121    0 feb. 13 22:29 _vendor/
+-rw-r--r-- 1 juanep 197121  286 feb. 13 22:29 py.typed
+
+./venv/Lib/site-packages/pip/__pycache__:
+total 12
+-rw-r--r-- 1 juanep 197121  691 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  853 feb. 13 22:29 __main__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 2290 feb. 13 22:29 __pip-runner__.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_internal:
+total 138
+-rw-r--r-- 1 juanep 197121   513 feb. 13 22:29 __init__.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 __pycache__/
+-rw-r--r-- 1 juanep 197121 10700 feb. 13 22:29 build_env.py
+-rw-r--r-- 1 juanep 197121 10369 feb. 13 22:29 cache.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 cli/
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 commands/
+-rw-r--r-- 1 juanep 197121 14005 feb. 13 22:29 configuration.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 distributions/
+-rw-r--r-- 1 juanep 197121 26481 feb. 13 22:29 exceptions.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 index/
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 locations/
+-rw-r--r-- 1 juanep 197121   340 feb. 13 22:29 main.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 metadata/
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 models/
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 network/
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 operations/
+-rw-r--r-- 1 juanep 197121  7286 feb. 13 22:29 pyproject.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 req/
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 resolution/
+-rw-r--r-- 1 juanep 197121  8318 feb. 13 22:29 self_outdated_check.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 utils/
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 vcs/
+-rw-r--r-- 1 juanep 197121 11799 feb. 13 22:29 wheel_builder.py
+
+./venv/Lib/site-packages/pip/_internal/__pycache__:
+total 133
+-rw-r--r-- 1 juanep 197121   785 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 15154 feb. 13 22:29 build_env.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 12905 feb. 13 22:29 cache.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 17856 feb. 13 22:29 configuration.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 37539 feb. 13 22:29 exceptions.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   670 feb. 13 22:29 main.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  5229 feb. 13 22:29 pyproject.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 10571 feb. 13 22:29 self_outdated_check.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 13968 feb. 13 22:29 wheel_builder.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_internal/cli:
+total 118
+-rw-r--r-- 1 juanep 197121   132 feb. 13 22:29 __init__.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 __pycache__/
+-rw-r--r-- 1 juanep 197121  6865 feb. 13 22:29 autocompletion.py
+-rw-r--r-- 1 juanep 197121  8625 feb. 13 22:29 base_command.py
+-rw-r--r-- 1 juanep 197121 30116 feb. 13 22:29 cmdoptions.py
+-rw-r--r-- 1 juanep 197121   774 feb. 13 22:29 command_context.py
+-rw-r--r-- 1 juanep 197121  5677 feb. 13 22:29 index_command.py
+-rw-r--r-- 1 juanep 197121  2817 feb. 13 22:29 main.py
+-rw-r--r-- 1 juanep 197121  4338 feb. 13 22:29 main_parser.py
+-rw-r--r-- 1 juanep 197121 10825 feb. 13 22:29 parser.py
+-rw-r--r-- 1 juanep 197121  2717 feb. 13 22:29 progress_bars.py
+-rw-r--r-- 1 juanep 197121 12250 feb. 13 22:29 req_command.py
+-rw-r--r-- 1 juanep 197121  5118 feb. 13 22:29 spinners.py
+-rw-r--r-- 1 juanep 197121   116 feb. 13 22:29 status_codes.py
+
+./venv/Lib/site-packages/pip/_internal/cli/__pycache__:
+total 126
+-rw-r--r-- 1 juanep 197121   286 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  8992 feb. 13 22:29 autocompletion.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 10706 feb. 13 22:29 base_command.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 30185 feb. 13 22:29 cmdoptions.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  1878 feb. 13 22:29 command_context.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  7437 feb. 13 22:29 index_command.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  2310 feb. 13 22:29 main.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  5015 feb. 13 22:29 main_parser.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 15392 feb. 13 22:29 parser.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  3875 feb. 13 22:29 progress_bars.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 12292 feb. 13 22:29 req_command.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  8184 feb. 13 22:29 spinners.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   383 feb. 13 22:29 status_codes.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_internal/commands:
+total 156
+-rw-r--r-- 1 juanep 197121  3882 feb. 13 22:29 __init__.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 __pycache__/
+-rw-r--r-- 1 juanep 197121  8107 feb. 13 22:29 cache.py
+-rw-r--r-- 1 juanep 197121  2268 feb. 13 22:29 check.py
+-rw-r--r-- 1 juanep 197121  4287 feb. 13 22:29 completion.py
+-rw-r--r-- 1 juanep 197121  9766 feb. 13 22:29 configuration.py
+-rw-r--r-- 1 juanep 197121  6797 feb. 13 22:29 debug.py
+-rw-r--r-- 1 juanep 197121  5273 feb. 13 22:29 download.py
+-rw-r--r-- 1 juanep 197121  3203 feb. 13 22:29 freeze.py
+-rw-r--r-- 1 juanep 197121  1703 feb. 13 22:29 hash.py
+-rw-r--r-- 1 juanep 197121  1132 feb. 13 22:29 help.py
+-rw-r--r-- 1 juanep 197121  4731 feb. 13 22:29 index.py
+-rw-r--r-- 1 juanep 197121  3189 feb. 13 22:29 inspect.py
+-rw-r--r-- 1 juanep 197121 29390 feb. 13 22:29 install.py
+-rw-r--r-- 1 juanep 197121 12769 feb. 13 22:29 list.py
+-rw-r--r-- 1 juanep 197121  5626 feb. 13 22:29 search.py
+-rw-r--r-- 1 juanep 197121  7857 feb. 13 22:29 show.py
+-rw-r--r-- 1 juanep 197121  3892 feb. 13 22:29 uninstall.py
+-rw-r--r-- 1 juanep 197121  6414 feb. 13 22:29 wheel.py
+
+./venv/Lib/site-packages/pip/_internal/commands/__pycache__:
+total 180
+-rw-r--r-- 1 juanep 197121  4006 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 10092 feb. 13 22:29 cache.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  2690 feb. 13 22:29 check.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  5235 feb. 13 22:29 completion.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 13242 feb. 13 22:29 configuration.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 10304 feb. 13 22:29 debug.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  7557 feb. 13 22:29 download.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  4454 feb. 13 22:29 freeze.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  3039 feb. 13 22:29 hash.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  1753 feb. 13 22:29 help.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  6702 feb. 13 22:29 index.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  4044 feb. 13 22:29 inspect.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 29477 feb. 13 22:29 install.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 16049 feb. 13 22:29 list.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  7674 feb. 13 22:29 search.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 11149 feb. 13 22:29 show.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  4778 feb. 13 22:29 uninstall.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  8984 feb. 13 22:29 wheel.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_internal/distributions:
+total 28
+-rw-r--r-- 1 juanep 197121  858 feb. 13 22:29 __init__.py
+drwxr-xr-x 1 juanep 197121    0 feb. 13 22:29 __pycache__/
+-rw-r--r-- 1 juanep 197121 1783 feb. 13 22:29 base.py
+-rw-r--r-- 1 juanep 197121  842 feb. 13 22:29 installed.py
+-rw-r--r-- 1 juanep 197121 6751 feb. 13 22:29 sdist.py
+-rw-r--r-- 1 juanep 197121 1317 feb. 13 22:29 wheel.py
+
+./venv/Lib/site-packages/pip/_internal/distributions/__pycache__:
+total 28
+-rw-r--r-- 1 juanep 197121  971 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 2911 feb. 13 22:29 base.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 1762 feb. 13 22:29 installed.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 8641 feb. 13 22:29 sdist.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 2351 feb. 13 22:29 wheel.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_internal/index:
+total 69
+-rw-r--r-- 1 juanep 197121    30 feb. 13 22:29 __init__.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 __pycache__/
+-rw-r--r-- 1 juanep 197121 16265 feb. 13 22:29 collector.py
+-rw-r--r-- 1 juanep 197121 38076 feb. 13 22:29 package_finder.py
+-rw-r--r-- 1 juanep 197121  8632 feb. 13 22:29 sources.py
+
+./venv/Lib/site-packages/pip/_internal/index/__pycache__:
+total 81
+-rw-r--r-- 1 juanep 197121   240 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 21849 feb. 13 22:29 collector.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 40960 feb. 13 22:29 package_finder.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 12761 feb. 13 22:29 sources.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_internal/locations:
+total 36
+-rw-r--r-- 1 juanep 197121 14925 feb. 13 22:29 __init__.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 __pycache__/
+-rw-r--r-- 1 juanep 197121  6013 feb. 13 22:29 _distutils.py
+-rw-r--r-- 1 juanep 197121  7724 feb. 13 22:29 _sysconfig.py
+-rw-r--r-- 1 juanep 197121  2556 feb. 13 22:29 base.py
+
+./venv/Lib/site-packages/pip/_internal/locations/__pycache__:
+total 40
+-rw-r--r-- 1 juanep 197121 16971 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  6907 feb. 13 22:29 _distutils.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  8144 feb. 13 22:29 _sysconfig.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  3776 feb. 13 22:29 base.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_internal/metadata:
+total 52
+-rw-r--r-- 1 juanep 197121  4337 feb. 13 22:29 __init__.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 __pycache__/
+-rw-r--r-- 1 juanep 197121  2707 feb. 13 22:29 _json.py
+-rw-r--r-- 1 juanep 197121 25298 feb. 13 22:29 base.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 importlib/
+-rw-r--r-- 1 juanep 197121 10542 feb. 13 22:29 pkg_resources.py
+
+./venv/Lib/site-packages/pip/_internal/metadata/__pycache__:
+total 64
+-rw-r--r-- 1 juanep 197121  5838 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  3024 feb. 13 22:29 _json.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 34604 feb. 13 22:29 base.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 16334 feb. 13 22:29 pkg_resources.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_internal/metadata/importlib:
+total 25
+-rw-r--r-- 1 juanep 197121  135 feb. 13 22:29 __init__.py
+drwxr-xr-x 1 juanep 197121    0 feb. 13 22:29 __pycache__/
+-rw-r--r-- 1 juanep 197121 2796 feb. 13 22:29 _compat.py
+-rw-r--r-- 1 juanep 197121 8279 feb. 13 22:29 _dists.py
+-rw-r--r-- 1 juanep 197121 7431 feb. 13 22:29 _envs.py
+
+./venv/Lib/site-packages/pip/_internal/metadata/importlib/__pycache__:
+total 37
+-rw-r--r-- 1 juanep 197121   366 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  4544 feb. 13 22:29 _compat.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 13131 feb. 13 22:29 _dists.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 11186 feb. 13 22:29 _envs.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_internal/models:
+total 82
+-rw-r--r-- 1 juanep 197121    63 feb. 13 22:29 __init__.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 __pycache__/
+-rw-r--r-- 1 juanep 197121   753 feb. 13 22:29 candidate.py
+-rw-r--r-- 1 juanep 197121  6578 feb. 13 22:29 direct_url.py
+-rw-r--r-- 1 juanep 197121  2486 feb. 13 22:29 format_control.py
+-rw-r--r-- 1 juanep 197121  1030 feb. 13 22:29 index.py
+-rw-r--r-- 1 juanep 197121  2818 feb. 13 22:29 installation_report.py
+-rw-r--r-- 1 juanep 197121 21448 feb. 13 22:29 link.py
+-rw-r--r-- 1 juanep 197121   575 feb. 13 22:29 scheme.py
+-rw-r--r-- 1 juanep 197121  4531 feb. 13 22:29 search_scope.py
+-rw-r--r-- 1 juanep 197121  2015 feb. 13 22:29 selection_prefs.py
+-rw-r--r-- 1 juanep 197121  4271 feb. 13 22:29 target_python.py
+-rw-r--r-- 1 juanep 197121  4539 feb. 13 22:29 wheel.py
+
+./venv/Lib/site-packages/pip/_internal/models/__pycache__:
+total 93
+-rw-r--r-- 1 juanep 197121   274 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  1670 feb. 13 22:29 candidate.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 11012 feb. 13 22:29 direct_url.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  4266 feb. 13 22:29 format_control.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  1773 feb. 13 22:29 index.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  2387 feb. 13 22:29 installation_report.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 27022 feb. 13 22:29 link.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  1075 feb. 13 22:29 scheme.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  5119 feb. 13 22:29 search_scope.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  1838 feb. 13 22:29 selection_prefs.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  4843 feb. 13 22:29 target_python.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  6537 feb. 13 22:29 wheel.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_internal/network:
+total 81
+-rw-r--r-- 1 juanep 197121    50 feb. 13 22:29 __init__.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 __pycache__/
+-rw-r--r-- 1 juanep 197121 20809 feb. 13 22:29 auth.py
+-rw-r--r-- 1 juanep 197121  4614 feb. 13 22:29 cache.py
+-rw-r--r-- 1 juanep 197121  6048 feb. 13 22:29 download.py
+-rw-r--r-- 1 juanep 197121  7622 feb. 13 22:29 lazy_wheel.py
+-rw-r--r-- 1 juanep 197121 18771 feb. 13 22:29 session.py
+-rw-r--r-- 1 juanep 197121  4088 feb. 13 22:29 utils.py
+-rw-r--r-- 1 juanep 197121  1838 feb. 13 22:29 xmlrpc.py
+
+./venv/Lib/site-packages/pip/_internal/network/__pycache__:
+total 85
+-rw-r--r-- 1 juanep 197121   262 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 22570 feb. 13 22:29 auth.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  7212 feb. 13 22:29 cache.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  8667 feb. 13 22:29 download.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 11510 feb. 13 22:29 lazy_wheel.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 19210 feb. 13 22:29 session.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  2303 feb. 13 22:29 utils.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  3054 feb. 13 22:29 xmlrpc.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_internal/operations:
+total 52
+-rw-r--r-- 1 juanep 197121     0 feb. 13 22:29 __init__.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 __pycache__/
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 build/
+-rw-r--r-- 1 juanep 197121  5912 feb. 13 22:29 check.py
+-rw-r--r-- 1 juanep 197121  9843 feb. 13 22:29 freeze.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 install/
+-rw-r--r-- 1 juanep 197121 28118 feb. 13 22:29 prepare.py
+
+./venv/Lib/site-packages/pip/_internal/operations/__pycache__:
+total 49
+-rw-r--r-- 1 juanep 197121   205 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  7232 feb. 13 22:29 check.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 10486 feb. 13 22:29 freeze.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 26603 feb. 13 22:29 prepare.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_internal/operations/build:
+total 36
+-rw-r--r-- 1 juanep 197121    0 feb. 13 22:29 __init__.py
+drwxr-xr-x 1 juanep 197121    0 feb. 13 22:29 __pycache__/
+-rw-r--r-- 1 juanep 197121 4774 feb. 13 22:29 build_tracker.py
+-rw-r--r-- 1 juanep 197121 1422 feb. 13 22:29 metadata.py
+-rw-r--r-- 1 juanep 197121 1510 feb. 13 22:29 metadata_editable.py
+-rw-r--r-- 1 juanep 197121 2190 feb. 13 22:29 metadata_legacy.py
+-rw-r--r-- 1 juanep 197121 1075 feb. 13 22:29 wheel.py
+-rw-r--r-- 1 juanep 197121 1417 feb. 13 22:29 wheel_editable.py
+-rw-r--r-- 1 juanep 197121 3045 feb. 13 22:29 wheel_legacy.py
+
+./venv/Lib/site-packages/pip/_internal/operations/build/__pycache__:
+total 33
+-rw-r--r-- 1 juanep 197121  211 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 7749 feb. 13 22:29 build_tracker.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 1869 feb. 13 22:29 metadata.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 1921 feb. 13 22:29 metadata_editable.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 3004 feb. 13 22:29 metadata_legacy.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 1691 feb. 13 22:29 wheel.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 2032 feb. 13 22:29 wheel_editable.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 3875 feb. 13 22:29 wheel_legacy.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_internal/operations/install:
+total 33
+-rw-r--r-- 1 juanep 197121    51 feb. 13 22:29 __init__.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 __pycache__/
+-rw-r--r-- 1 juanep 197121  1283 feb. 13 22:29 editable_legacy.py
+-rw-r--r-- 1 juanep 197121 27615 feb. 13 22:29 wheel.py
+
+./venv/Lib/site-packages/pip/_internal/operations/install/__pycache__:
+total 41
+-rw-r--r-- 1 juanep 197121   274 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  1805 feb. 13 22:29 editable_legacy.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 34782 feb. 13 22:29 wheel.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_internal/req:
+total 112
+-rw-r--r-- 1 juanep 197121  2653 feb. 13 22:29 __init__.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 __pycache__/
+-rw-r--r-- 1 juanep 197121 18430 feb. 13 22:29 constructors.py
+-rw-r--r-- 1 juanep 197121 20234 feb. 13 22:29 req_file.py
+-rw-r--r-- 1 juanep 197121 35786 feb. 13 22:29 req_install.py
+-rw-r--r-- 1 juanep 197121  2858 feb. 13 22:29 req_set.py
+-rw-r--r-- 1 juanep 197121 23853 feb. 13 22:29 req_uninstall.py
+
+./venv/Lib/site-packages/pip/_internal/req/__pycache__:
+total 140
+-rw-r--r-- 1 juanep 197121  3579 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 21555 feb. 13 22:29 constructors.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 24623 feb. 13 22:29 req_file.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 39353 feb. 13 22:29 req_install.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  5629 feb. 13 22:29 req_set.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 32861 feb. 13 22:29 req_uninstall.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_internal/resolution:
+total 5
+-rw-r--r-- 1 juanep 197121   0 feb. 13 22:29 __init__.py
+drwxr-xr-x 1 juanep 197121   0 feb. 13 22:29 __pycache__/
+-rw-r--r-- 1 juanep 197121 583 feb. 13 22:29 base.py
+drwxr-xr-x 1 juanep 197121   0 feb. 13 22:29 legacy/
+drwxr-xr-x 1 juanep 197121   0 feb. 13 22:29 resolvelib/
+
+./venv/Lib/site-packages/pip/_internal/resolution/__pycache__:
+total 5
+-rw-r--r-- 1 juanep 197121  205 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 1255 feb. 13 22:29 base.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_internal/resolution/legacy:
+total 24
+-rw-r--r-- 1 juanep 197121     0 feb. 13 22:29 __init__.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 __pycache__/
+-rw-r--r-- 1 juanep 197121 24068 feb. 13 22:29 resolver.py
+
+./venv/Lib/site-packages/pip/_internal/resolution/legacy/__pycache__:
+total 25
+-rw-r--r-- 1 juanep 197121   212 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 22889 feb. 13 22:29 resolver.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_internal/resolution/resolvelib:
+total 112
+-rw-r--r-- 1 juanep 197121     0 feb. 13 22:29 __init__.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 __pycache__/
+-rw-r--r-- 1 juanep 197121  5023 feb. 13 22:29 base.py
+-rw-r--r-- 1 juanep 197121 20001 feb. 13 22:29 candidates.py
+-rw-r--r-- 1 juanep 197121 32659 feb. 13 22:29 factory.py
+-rw-r--r-- 1 juanep 197121  6383 feb. 13 22:29 found_candidates.py
+-rw-r--r-- 1 juanep 197121  9935 feb. 13 22:29 provider.py
+-rw-r--r-- 1 juanep 197121  3168 feb. 13 22:29 reporter.py
+-rw-r--r-- 1 juanep 197121  8065 feb. 13 22:29 requirements.py
+-rw-r--r-- 1 juanep 197121 12592 feb. 13 22:29 resolver.py
+
+./venv/Lib/site-packages/pip/_internal/resolution/resolvelib/__pycache__:
+total 141
+-rw-r--r-- 1 juanep 197121   216 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  8275 feb. 13 22:29 base.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 29785 feb. 13 22:29 candidates.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 33129 feb. 13 22:29 factory.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  6878 feb. 13 22:29 found_candidates.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 10307 feb. 13 22:29 provider.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  5143 feb. 13 22:29 reporter.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 15755 feb. 13 22:29 requirements.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 12406 feb. 13 22:29 resolver.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_internal/utils:
+total 170
+-rw-r--r-- 1 juanep 197121     0 feb. 13 22:29 __init__.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 __pycache__/
+-rw-r--r-- 1 juanep 197121  3350 feb. 13 22:29 _jaraco_text.py
+-rw-r--r-- 1 juanep 197121  1015 feb. 13 22:29 _log.py
+-rw-r--r-- 1 juanep 197121  1665 feb. 13 22:29 appdirs.py
+-rw-r--r-- 1 juanep 197121  2399 feb. 13 22:29 compat.py
+-rw-r--r-- 1 juanep 197121  6272 feb. 13 22:29 compatibility_tags.py
+-rw-r--r-- 1 juanep 197121   242 feb. 13 22:29 datetime.py
+-rw-r--r-- 1 juanep 197121  3707 feb. 13 22:29 deprecation.py
+-rw-r--r-- 1 juanep 197121  3196 feb. 13 22:29 direct_url_helpers.py
+-rw-r--r-- 1 juanep 197121  2463 feb. 13 22:29 egg_link.py
+-rw-r--r-- 1 juanep 197121  3064 feb. 13 22:29 entrypoints.py
+-rw-r--r-- 1 juanep 197121  4950 feb. 13 22:29 filesystem.py
+-rw-r--r-- 1 juanep 197121   716 feb. 13 22:29 filetypes.py
+-rw-r--r-- 1 juanep 197121  3734 feb. 13 22:29 glibc.py
+-rw-r--r-- 1 juanep 197121  4972 feb. 13 22:29 hashes.py
+-rw-r--r-- 1 juanep 197121 11845 feb. 13 22:29 logging.py
+-rw-r--r-- 1 juanep 197121 23450 feb. 13 22:29 misc.py
+-rw-r--r-- 1 juanep 197121  2142 feb. 13 22:29 packaging.py
+-rw-r--r-- 1 juanep 197121  1392 feb. 13 22:29 retry.py
+-rw-r--r-- 1 juanep 197121  4435 feb. 13 22:29 setuptools_build.py
+-rw-r--r-- 1 juanep 197121  8988 feb. 13 22:29 subprocess.py
+-rw-r--r-- 1 juanep 197121  9310 feb. 13 22:29 temp_dir.py
+-rw-r--r-- 1 juanep 197121 11967 feb. 13 22:29 unpacking.py
+-rw-r--r-- 1 juanep 197121  1599 feb. 13 22:29 urls.py
+-rw-r--r-- 1 juanep 197121  3456 feb. 13 22:29 virtualenv.py
+-rw-r--r-- 1 juanep 197121  4494 feb. 13 22:29 wheel.py
+
+./venv/Lib/site-packages/pip/_internal/utils/__pycache__:
+total 205
+-rw-r--r-- 1 juanep 197121   200 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  4446 feb. 13 22:29 _jaraco_text.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  1919 feb. 13 22:29 _log.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  2428 feb. 13 22:29 appdirs.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  2938 feb. 13 22:29 compat.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  6393 feb. 13 22:29 compatibility_tags.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   685 feb. 13 22:29 datetime.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  4251 feb. 13 22:29 deprecation.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  3639 feb. 13 22:29 direct_url_helpers.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  3220 feb. 13 22:29 egg_link.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  4080 feb. 13 22:29 entrypoints.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  7445 feb. 13 22:29 filesystem.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  1175 feb. 13 22:29 filetypes.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  2455 feb. 13 22:29 glibc.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  7747 feb. 13 22:29 hashes.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 14203 feb. 13 22:29 logging.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 33489 feb. 13 22:29 misc.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  2610 feb. 13 22:29 packaging.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  2115 feb. 13 22:29 retry.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  4575 feb. 13 22:29 setuptools_build.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  8877 feb. 13 22:29 subprocess.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 12142 feb. 13 22:29 temp_dir.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 13801 feb. 13 22:29 unpacking.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  2135 feb. 13 22:29 urls.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  4475 feb. 13 22:29 virtualenv.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  5901 feb. 13 22:29 wheel.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_internal/vcs:
+total 73
+-rw-r--r-- 1 juanep 197121   596 feb. 13 22:29 __init__.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 __pycache__/
+-rw-r--r-- 1 juanep 197121  3528 feb. 13 22:29 bazaar.py
+-rw-r--r-- 1 juanep 197121 18177 feb. 13 22:29 git.py
+-rw-r--r-- 1 juanep 197121  5249 feb. 13 22:29 mercurial.py
+-rw-r--r-- 1 juanep 197121 11735 feb. 13 22:29 subversion.py
+-rw-r--r-- 1 juanep 197121 22440 feb. 13 22:29 versioncontrol.py
+
+./venv/Lib/site-packages/pip/_internal/vcs/__pycache__:
+total 81
+-rw-r--r-- 1 juanep 197121   539 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  5144 feb. 13 22:29 bazaar.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 18818 feb. 13 22:29 git.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  7606 feb. 13 22:29 mercurial.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 12675 feb. 13 22:29 subversion.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 28300 feb. 13 22:29 versioncontrol.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_vendor:
+total 197
+-rw-r--r-- 1 juanep 197121   4873 feb. 13 22:29 __init__.py
+drwxr-xr-x 1 juanep 197121      0 feb. 13 22:29 __pycache__/
+drwxr-xr-x 1 juanep 197121      0 feb. 13 22:29 cachecontrol/
+drwxr-xr-x 1 juanep 197121      0 feb. 13 22:29 certifi/
+drwxr-xr-x 1 juanep 197121      0 feb. 13 22:29 distlib/
+drwxr-xr-x 1 juanep 197121      0 feb. 13 22:29 distro/
+drwxr-xr-x 1 juanep 197121      0 feb. 13 22:29 idna/
+drwxr-xr-x 1 juanep 197121      0 feb. 13 22:29 msgpack/
+drwxr-xr-x 1 juanep 197121      0 feb. 13 22:29 packaging/
+drwxr-xr-x 1 juanep 197121      0 feb. 13 22:29 pkg_resources/
+drwxr-xr-x 1 juanep 197121      0 feb. 13 22:29 platformdirs/
+drwxr-xr-x 1 juanep 197121      0 feb. 13 22:29 pygments/
+drwxr-xr-x 1 juanep 197121      0 feb. 13 22:29 pyproject_hooks/
+drwxr-xr-x 1 juanep 197121      0 feb. 13 22:29 requests/
+drwxr-xr-x 1 juanep 197121      0 feb. 13 22:29 resolvelib/
+drwxr-xr-x 1 juanep 197121      0 feb. 13 22:29 rich/
+drwxr-xr-x 1 juanep 197121      0 feb. 13 22:29 tomli/
+drwxr-xr-x 1 juanep 197121      0 feb. 13 22:29 truststore/
+-rw-r--r-- 1 juanep 197121 134499 feb. 13 22:29 typing_extensions.py
+drwxr-xr-x 1 juanep 197121      0 feb. 13 22:29 urllib3/
+-rw-r--r-- 1 juanep 197121    333 feb. 13 22:29 vendor.txt
+
+./venv/Lib/site-packages/pip/_vendor/__pycache__:
+total 148
+-rw-r--r-- 1 juanep 197121   4560 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 142787 feb. 13 22:29 typing_extensions.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_vendor/cachecontrol:
+total 69
+-rw-r--r-- 1 juanep 197121   677 feb. 13 22:29 __init__.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 __pycache__/
+-rw-r--r-- 1 juanep 197121  1737 feb. 13 22:29 _cmd.py
+-rw-r--r-- 1 juanep 197121  6348 feb. 13 22:29 adapter.py
+-rw-r--r-- 1 juanep 197121  1953 feb. 13 22:29 cache.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 caches/
+-rw-r--r-- 1 juanep 197121 18576 feb. 13 22:29 controller.py
+-rw-r--r-- 1 juanep 197121  4291 feb. 13 22:29 filewrapper.py
+-rw-r--r-- 1 juanep 197121  4881 feb. 13 22:29 heuristics.py
+-rw-r--r-- 1 juanep 197121     0 feb. 13 22:29 py.typed
+-rw-r--r-- 1 juanep 197121  5163 feb. 13 22:29 serialize.py
+-rw-r--r-- 1 juanep 197121  1417 feb. 13 22:29 wrapper.py
+
+./venv/Lib/site-packages/pip/_vendor/cachecontrol/__pycache__:
+total 68
+-rw-r--r-- 1 juanep 197121   906 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  2684 feb. 13 22:29 _cmd.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  6598 feb. 13 22:29 adapter.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  3936 feb. 13 22:29 cache.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 16607 feb. 13 22:29 controller.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  4442 feb. 13 22:29 filewrapper.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  6778 feb. 13 22:29 heuristics.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  5375 feb. 13 22:29 serialize.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  1703 feb. 13 22:29 wrapper.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_vendor/cachecontrol/caches:
+total 13
+-rw-r--r-- 1 juanep 197121  303 feb. 13 22:29 __init__.py
+drwxr-xr-x 1 juanep 197121    0 feb. 13 22:29 __pycache__/
+-rw-r--r-- 1 juanep 197121 5399 feb. 13 22:29 file_cache.py
+-rw-r--r-- 1 juanep 197121 1386 feb. 13 22:29 redis_cache.py
+
+./venv/Lib/site-packages/pip/_vendor/cachecontrol/caches/__pycache__:
+total 13
+-rw-r--r-- 1 juanep 197121  444 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 7944 feb. 13 22:29 file_cache.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 2825 feb. 13 22:29 redis_cache.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_vendor/certifi:
+total 306
+-rw-r--r-- 1 juanep 197121     94 feb. 13 22:29 __init__.py
+-rw-r--r-- 1 juanep 197121    255 feb. 13 22:29 __main__.py
+drwxr-xr-x 1 juanep 197121      0 feb. 13 22:29 __pycache__/
+-rw-r--r-- 1 juanep 197121 299427 feb. 13 22:29 cacert.pem
+-rw-r--r-- 1 juanep 197121   4486 feb. 13 22:29 core.py
+-rw-r--r-- 1 juanep 197121      0 feb. 13 22:29 py.typed
+
+./venv/Lib/site-packages/pip/_vendor/certifi/__pycache__:
+total 6
+-rw-r--r-- 1 juanep 197121  327 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  656 feb. 13 22:29 __main__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 3236 feb. 13 22:29 core.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_vendor/distlib:
+total 1153
+-rw-r--r-- 1 juanep 197121    625 feb. 13 22:29 __init__.py
+drwxr-xr-x 1 juanep 197121      0 feb. 13 22:29 __pycache__/
+-rw-r--r-- 1 juanep 197121  41467 feb. 13 22:29 compat.py
+-rw-r--r-- 1 juanep 197121  51160 feb. 13 22:29 database.py
+-rw-r--r-- 1 juanep 197121  20797 feb. 13 22:29 index.py
+-rw-r--r-- 1 juanep 197121  51026 feb. 13 22:29 locators.py
+-rw-r--r-- 1 juanep 197121  14168 feb. 13 22:29 manifest.py
+-rw-r--r-- 1 juanep 197121   5164 feb. 13 22:29 markers.py
+-rw-r--r-- 1 juanep 197121  38724 feb. 13 22:29 metadata.py
+-rw-r--r-- 1 juanep 197121  10820 feb. 13 22:29 resources.py
+-rw-r--r-- 1 juanep 197121  18608 feb. 13 22:29 scripts.py
+-rwxr-xr-x 1 juanep 197121  97792 feb. 13 22:29 t32.exe*
+-rwxr-xr-x 1 juanep 197121 108032 feb. 13 22:29 t64.exe*
+-rwxr-xr-x 1 juanep 197121 182784 feb. 13 22:29 t64-arm.exe*
+-rw-r--r-- 1 juanep 197121  66682 feb. 13 22:29 util.py
+-rw-r--r-- 1 juanep 197121  23727 feb. 13 22:29 version.py
+-rwxr-xr-x 1 juanep 197121  91648 feb. 13 22:29 w32.exe*
+-rwxr-xr-x 1 juanep 197121 101888 feb. 13 22:29 w64.exe*
+-rwxr-xr-x 1 juanep 197121 168448 feb. 13 22:29 w64-arm.exe*
+-rw-r--r-- 1 juanep 197121  43979 feb. 13 22:29 wheel.py
+
+./venv/Lib/site-packages/pip/_vendor/distlib/__pycache__:
+total 488
+-rw-r--r-- 1 juanep 197121  1364 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 45874 feb. 13 22:29 compat.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 65244 feb. 13 22:29 database.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 23561 feb. 13 22:29 index.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 59540 feb. 13 22:29 locators.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 15041 feb. 13 22:29 manifest.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  7696 feb. 13 22:29 markers.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 42599 feb. 13 22:29 metadata.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 17666 feb. 13 22:29 resources.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 20242 feb. 13 22:29 scripts.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 90124 feb. 13 22:29 util.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 30988 feb. 13 22:29 version.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 53788 feb. 13 22:29 wheel.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_vendor/distro:
+total 57
+-rw-r--r-- 1 juanep 197121   981 feb. 13 22:29 __init__.py
+-rw-r--r-- 1 juanep 197121    64 feb. 13 22:29 __main__.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 __pycache__/
+-rwxr-xr-x 1 juanep 197121 49430 feb. 13 22:29 distro.py*
+-rw-r--r-- 1 juanep 197121     0 feb. 13 22:29 py.typed
+
+./venv/Lib/site-packages/pip/_vendor/distro/__pycache__:
+total 57
+-rw-r--r-- 1 juanep 197121   969 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   303 feb. 13 22:29 __main__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 52152 feb. 13 22:29 distro.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_vendor/idna:
+total 350
+-rw-r--r-- 1 juanep 197121    868 feb. 13 22:29 __init__.py
+drwxr-xr-x 1 juanep 197121      0 feb. 13 22:29 __pycache__/
+-rw-r--r-- 1 juanep 197121   3422 feb. 13 22:29 codec.py
+-rw-r--r-- 1 juanep 197121    316 feb. 13 22:29 compat.py
+-rw-r--r-- 1 juanep 197121  13239 feb. 13 22:29 core.py
+-rw-r--r-- 1 juanep 197121  78306 feb. 13 22:29 idnadata.py
+-rw-r--r-- 1 juanep 197121   1898 feb. 13 22:29 intranges.py
+-rw-r--r-- 1 juanep 197121     21 feb. 13 22:29 package_data.py
+-rw-r--r-- 1 juanep 197121      0 feb. 13 22:29 py.typed
+-rw-r--r-- 1 juanep 197121 239289 feb. 13 22:29 uts46data.py
+
+./venv/Lib/site-packages/pip/_vendor/idna/__pycache__:
+total 297
+-rw-r--r-- 1 juanep 197121    895 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   5319 feb. 13 22:29 codec.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121    905 feb. 13 22:29 compat.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  16941 feb. 13 22:29 core.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  99485 feb. 13 22:29 idnadata.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   2618 feb. 13 22:29 intranges.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121    226 feb. 13 22:29 package_data.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 159019 feb. 13 22:29 uts46data.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_vendor/msgpack:
+total 48
+-rw-r--r-- 1 juanep 197121  1109 feb. 13 22:29 __init__.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 __pycache__/
+-rw-r--r-- 1 juanep 197121  1081 feb. 13 22:29 exceptions.py
+-rw-r--r-- 1 juanep 197121  5726 feb. 13 22:29 ext.py
+-rw-r--r-- 1 juanep 197121 32390 feb. 13 22:29 fallback.py
+
+./venv/Lib/site-packages/pip/_vendor/msgpack/__pycache__:
+total 60
+-rw-r--r-- 1 juanep 197121  1724 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  2173 feb. 13 22:29 exceptions.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  8102 feb. 13 22:29 ext.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 42077 feb. 13 22:29 fallback.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_vendor/packaging:
+total 193
+-rw-r--r-- 1 juanep 197121   494 feb. 13 22:29 __init__.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 __pycache__/
+-rw-r--r-- 1 juanep 197121  3306 feb. 13 22:29 _elffile.py
+-rw-r--r-- 1 juanep 197121  9612 feb. 13 22:29 _manylinux.py
+-rw-r--r-- 1 juanep 197121  2694 feb. 13 22:29 _musllinux.py
+-rw-r--r-- 1 juanep 197121 10236 feb. 13 22:29 _parser.py
+-rw-r--r-- 1 juanep 197121  1431 feb. 13 22:29 _structures.py
+-rw-r--r-- 1 juanep 197121  5273 feb. 13 22:29 _tokenizer.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 licenses/
+-rw-r--r-- 1 juanep 197121 10561 feb. 13 22:29 markers.py
+-rw-r--r-- 1 juanep 197121 34762 feb. 13 22:29 metadata.py
+-rw-r--r-- 1 juanep 197121     0 feb. 13 22:29 py.typed
+-rw-r--r-- 1 juanep 197121  2947 feb. 13 22:29 requirements.py
+-rw-r--r-- 1 juanep 197121 40098 feb. 13 22:29 specifiers.py
+-rw-r--r-- 1 juanep 197121 21014 feb. 13 22:29 tags.py
+-rw-r--r-- 1 juanep 197121  5050 feb. 13 22:29 utils.py
+-rw-r--r-- 1 juanep 197121 16688 feb. 13 22:29 version.py
+
+./venv/Lib/site-packages/pip/_vendor/packaging/__pycache__:
+total 197
+-rw-r--r-- 1 juanep 197121   567 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  5233 feb. 13 22:29 _elffile.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 10018 feb. 13 22:29 _manylinux.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  4632 feb. 13 22:29 _musllinux.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 14198 feb. 13 22:29 _parser.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  3362 feb. 13 22:29 _structures.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  8082 feb. 13 22:29 _tokenizer.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 11688 feb. 13 22:29 markers.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 27382 feb. 13 22:29 metadata.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  4643 feb. 13 22:29 requirements.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 37678 feb. 13 22:29 specifiers.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 23332 feb. 13 22:29 tags.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  6767 feb. 13 22:29 utils.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 19992 feb. 13 22:29 version.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_vendor/packaging/licenses:
+total 56
+-rw-r--r-- 1 juanep 197121  5727 feb. 13 22:29 __init__.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 __pycache__/
+-rw-r--r-- 1 juanep 197121 48398 feb. 13 22:29 _spdx.py
+
+./venv/Lib/site-packages/pip/_vendor/packaging/licenses/__pycache__:
+total 56
+-rw-r--r-- 1 juanep 197121  4320 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 47449 feb. 13 22:29 _spdx.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_vendor/pkg_resources:
+total 124
+-rw-r--r-- 1 juanep 197121 124463 feb. 13 22:29 __init__.py
+drwxr-xr-x 1 juanep 197121      0 feb. 13 22:29 __pycache__/
+
+./venv/Lib/site-packages/pip/_vendor/pkg_resources/__pycache__:
+total 160
+-rw-r--r-- 1 juanep 197121 161627 feb. 13 22:29 __init__.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_vendor/platformdirs:
+total 89
+-rw-r--r-- 1 juanep 197121 22344 feb. 13 22:29 __init__.py
+-rw-r--r-- 1 juanep 197121  1505 feb. 13 22:29 __main__.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 __pycache__/
+-rw-r--r-- 1 juanep 197121  9007 feb. 13 22:29 android.py
+-rw-r--r-- 1 juanep 197121  9246 feb. 13 22:29 api.py
+-rw-r--r-- 1 juanep 197121  6154 feb. 13 22:29 macos.py
+-rw-r--r-- 1 juanep 197121     0 feb. 13 22:29 py.typed
+-rw-r--r-- 1 juanep 197121 10393 feb. 13 22:29 unix.py
+-rw-r--r-- 1 juanep 197121   411 feb. 13 22:29 version.py
+-rw-r--r-- 1 juanep 197121 10125 feb. 13 22:29 windows.py
+
+./venv/Lib/site-packages/pip/_vendor/platformdirs/__pycache__:
+total 97
+-rw-r--r-- 1 juanep 197121 19374 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  1941 feb. 13 22:29 __main__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 10784 feb. 13 22:29 android.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 13447 feb. 13 22:29 api.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  8837 feb. 13 22:29 macos.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 14706 feb. 13 22:29 unix.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   616 feb. 13 22:29 version.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 13793 feb. 13 22:29 windows.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_vendor/pygments:
+total 205
+-rw-r--r-- 1 juanep 197121  2983 feb. 13 22:29 __init__.py
+-rw-r--r-- 1 juanep 197121   353 feb. 13 22:29 __main__.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 __pycache__/
+-rw-r--r-- 1 juanep 197121 23656 feb. 13 22:29 cmdline.py
+-rw-r--r-- 1 juanep 197121  1718 feb. 13 22:29 console.py
+-rw-r--r-- 1 juanep 197121  1910 feb. 13 22:29 filter.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 filters/
+-rw-r--r-- 1 juanep 197121  4390 feb. 13 22:29 formatter.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 formatters/
+-rw-r--r-- 1 juanep 197121 35349 feb. 13 22:29 lexer.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 lexers/
+-rw-r--r-- 1 juanep 197121  1005 feb. 13 22:29 modeline.py
+-rw-r--r-- 1 juanep 197121  1891 feb. 13 22:29 plugin.py
+-rw-r--r-- 1 juanep 197121  3072 feb. 13 22:29 regexopt.py
+-rw-r--r-- 1 juanep 197121  3092 feb. 13 22:29 scanner.py
+-rw-r--r-- 1 juanep 197121  7981 feb. 13 22:29 sphinxext.py
+-rw-r--r-- 1 juanep 197121  6420 feb. 13 22:29 style.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 styles/
+-rw-r--r-- 1 juanep 197121  6226 feb. 13 22:29 token.py
+-rw-r--r-- 1 juanep 197121 63208 feb. 13 22:29 unistring.py
+-rw-r--r-- 1 juanep 197121 10031 feb. 13 22:29 util.py
+
+./venv/Lib/site-packages/pip/_vendor/pygments/__pycache__:
+total 200
+-rw-r--r-- 1 juanep 197121  3442 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   722 feb. 13 22:29 __main__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 27125 feb. 13 22:29 cmdline.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  2610 feb. 13 22:29 console.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  3236 feb. 13 22:29 filter.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  4567 feb. 13 22:29 formatter.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 38487 feb. 13 22:29 lexer.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  1583 feb. 13 22:29 modeline.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  2557 feb. 13 22:29 plugin.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  4114 feb. 13 22:29 regexopt.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  4693 feb. 13 22:29 scanner.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 12250 feb. 13 22:29 sphinxext.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  6949 feb. 13 22:29 style.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  8253 feb. 13 22:29 token.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 33035 feb. 13 22:29 unistring.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 14183 feb. 13 22:29 util.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_vendor/pygments/filters:
+total 40
+-rw-r--r-- 1 juanep 197121 40392 feb. 13 22:29 __init__.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 __pycache__/
+
+./venv/Lib/site-packages/pip/_vendor/pygments/filters/__pycache__:
+total 40
+-rw-r--r-- 1 juanep 197121 37979 feb. 13 22:29 __init__.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_vendor/pygments/formatters:
+total 172
+-rw-r--r-- 1 juanep 197121  5385 feb. 13 22:29 __init__.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 __pycache__/
+-rw-r--r-- 1 juanep 197121  4176 feb. 13 22:29 _mapping.py
+-rw-r--r-- 1 juanep 197121  3320 feb. 13 22:29 bbcode.py
+-rw-r--r-- 1 juanep 197121  5106 feb. 13 22:29 groff.py
+-rw-r--r-- 1 juanep 197121 35669 feb. 13 22:29 html.py
+-rw-r--r-- 1 juanep 197121 23287 feb. 13 22:29 img.py
+-rw-r--r-- 1 juanep 197121  4981 feb. 13 22:29 irc.py
+-rw-r--r-- 1 juanep 197121 19306 feb. 13 22:29 latex.py
+-rw-r--r-- 1 juanep 197121  5034 feb. 13 22:29 other.py
+-rw-r--r-- 1 juanep 197121  2218 feb. 13 22:29 pangomarkup.py
+-rw-r--r-- 1 juanep 197121 11957 feb. 13 22:29 rtf.py
+-rw-r--r-- 1 juanep 197121  7174 feb. 13 22:29 svg.py
+-rw-r--r-- 1 juanep 197121  4674 feb. 13 22:29 terminal.py
+-rw-r--r-- 1 juanep 197121 11753 feb. 13 22:29 terminal256.py
+
+./venv/Lib/site-packages/pip/_vendor/pygments/formatters/__pycache__:
+total 196
+-rw-r--r-- 1 juanep 197121  6936 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  4225 feb. 13 22:29 _mapping.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  4294 feb. 13 22:29 bbcode.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  7446 feb. 13 22:29 groff.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 41118 feb. 13 22:29 html.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 28485 feb. 13 22:29 img.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  6129 feb. 13 22:29 irc.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 20395 feb. 13 22:29 latex.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  6965 feb. 13 22:29 other.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  3042 feb. 13 22:29 pangomarkup.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 13880 feb. 13 22:29 rtf.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  9183 feb. 13 22:29 svg.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  5909 feb. 13 22:29 terminal.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 15533 feb. 13 22:29 terminal256.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_vendor/pygments/lexers:
+total 144
+-rw-r--r-- 1 juanep 197121 12115 feb. 13 22:29 __init__.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 __pycache__/
+-rw-r--r-- 1 juanep 197121 76097 feb. 13 22:29 _mapping.py
+-rw-r--r-- 1 juanep 197121 53687 feb. 13 22:29 python.py
+
+./venv/Lib/site-packages/pip/_vendor/pygments/lexers/__pycache__:
+total 128
+-rw-r--r-- 1 juanep 197121 14764 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 68273 feb. 13 22:29 _mapping.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 43049 feb. 13 22:29 python.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_vendor/pygments/styles:
+total 8
+-rw-r--r-- 1 juanep 197121 2042 feb. 13 22:29 __init__.py
+drwxr-xr-x 1 juanep 197121    0 feb. 13 22:29 __pycache__/
+-rw-r--r-- 1 juanep 197121 3312 feb. 13 22:29 _mapping.py
+
+./venv/Lib/site-packages/pip/_vendor/pygments/styles/__pycache__:
+total 8
+-rw-r--r-- 1 juanep 197121 2651 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 3658 feb. 13 22:29 _mapping.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_vendor/pyproject_hooks:
+total 17
+-rw-r--r-- 1 juanep 197121   691 feb. 13 22:29 __init__.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 __pycache__/
+-rw-r--r-- 1 juanep 197121 14936 feb. 13 22:29 _impl.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 _in_process/
+-rw-r--r-- 1 juanep 197121     0 feb. 13 22:29 py.typed
+
+./venv/Lib/site-packages/pip/_vendor/pyproject_hooks/__pycache__:
+total 24
+-rw-r--r-- 1 juanep 197121   767 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 17739 feb. 13 22:29 _impl.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_vendor/pyproject_hooks/_in_process:
+total 13
+-rw-r--r-- 1 juanep 197121   557 feb. 13 22:29 __init__.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 __pycache__/
+-rw-r--r-- 1 juanep 197121 12216 feb. 13 22:29 _in_process.py
+
+./venv/Lib/site-packages/pip/_vendor/pyproject_hooks/_in_process/__pycache__:
+total 20
+-rw-r--r-- 1 juanep 197121  1094 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 15519 feb. 13 22:29 _in_process.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_vendor/requests:
+total 226
+-rw-r--r-- 1 juanep 197121  5057 feb. 13 22:29 __init__.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 __pycache__/
+-rw-r--r-- 1 juanep 197121   435 feb. 13 22:29 __version__.py
+-rw-r--r-- 1 juanep 197121  1495 feb. 13 22:29 _internal_utils.py
+-rw-r--r-- 1 juanep 197121 27607 feb. 13 22:29 adapters.py
+-rw-r--r-- 1 juanep 197121  6449 feb. 13 22:29 api.py
+-rw-r--r-- 1 juanep 197121 10186 feb. 13 22:29 auth.py
+-rwxr-xr-x 1 juanep 197121   441 feb. 13 22:29 certs.py*
+-rw-r--r-- 1 juanep 197121  1485 feb. 13 22:29 compat.py
+-rw-r--r-- 1 juanep 197121 18590 feb. 13 22:29 cookies.py
+-rw-r--r-- 1 juanep 197121  4272 feb. 13 22:29 exceptions.py
+-rw-r--r-- 1 juanep 197121  3813 feb. 13 22:29 help.py
+-rw-r--r-- 1 juanep 197121   733 feb. 13 22:29 hooks.py
+-rw-r--r-- 1 juanep 197121 35483 feb. 13 22:29 models.py
+-rw-r--r-- 1 juanep 197121  1057 feb. 13 22:29 packages.py
+-rw-r--r-- 1 juanep 197121 30495 feb. 13 22:29 sessions.py
+-rw-r--r-- 1 juanep 197121  4322 feb. 13 22:29 status_codes.py
+-rw-r--r-- 1 juanep 197121  2912 feb. 13 22:29 structures.py
+-rw-r--r-- 1 juanep 197121 33631 feb. 13 22:29 utils.py
+
+./venv/Lib/site-packages/pip/_vendor/requests/__pycache__:
+total 241
+-rw-r--r-- 1 juanep 197121  5285 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   594 feb. 13 22:29 __version__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  2028 feb. 13 22:29 _internal_utils.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 27483 feb. 13 22:29 adapters.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  6880 feb. 13 22:29 api.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 14242 feb. 13 22:29 auth.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   690 feb. 13 22:29 certs.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  1687 feb. 13 22:29 compat.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 25037 feb. 13 22:29 cookies.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  8033 feb. 13 22:29 exceptions.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  4271 feb. 13 22:29 help.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  1104 feb. 13 22:29 hooks.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 35865 feb. 13 22:29 models.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  1324 feb. 13 22:29 packages.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 27396 feb. 13 22:29 sessions.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  6054 feb. 13 22:29 status_codes.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  5657 feb. 13 22:29 structures.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 36530 feb. 13 22:29 utils.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_vendor/resolvelib:
+total 49
+-rw-r--r-- 1 juanep 197121   537 feb. 13 22:29 __init__.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 __pycache__/
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 compat/
+-rw-r--r-- 1 juanep 197121  5871 feb. 13 22:29 providers.py
+-rw-r--r-- 1 juanep 197121     0 feb. 13 22:29 py.typed
+-rw-r--r-- 1 juanep 197121  1601 feb. 13 22:29 reporters.py
+-rw-r--r-- 1 juanep 197121 20511 feb. 13 22:29 resolvers.py
+-rw-r--r-- 1 juanep 197121  4963 feb. 13 22:29 structs.py
+
+./venv/Lib/site-packages/pip/_vendor/resolvelib/__pycache__:
+total 53
+-rw-r--r-- 1 juanep 197121   644 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  6360 feb. 13 22:29 providers.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  2618 feb. 13 22:29 reporters.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 25775 feb. 13 22:29 resolvers.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 10705 feb. 13 22:29 structs.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_vendor/resolvelib/compat:
+total 1
+-rw-r--r-- 1 juanep 197121   0 feb. 13 22:29 __init__.py
+drwxr-xr-x 1 juanep 197121   0 feb. 13 22:29 __pycache__/
+-rw-r--r-- 1 juanep 197121 156 feb. 13 22:29 collections_abc.py
+
+./venv/Lib/site-packages/pip/_vendor/resolvelib/compat/__pycache__:
+total 2
+-rw-r--r-- 1 juanep 197121 210 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 432 feb. 13 22:29 collections_abc.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_vendor/rich:
+total 1059
+-rw-r--r-- 1 juanep 197121   6090 feb. 13 22:29 __init__.py
+-rw-r--r-- 1 juanep 197121   8477 feb. 13 22:29 __main__.py
+drwxr-xr-x 1 juanep 197121      0 feb. 13 22:29 __pycache__/
+-rw-r--r-- 1 juanep 197121  10209 feb. 13 22:29 _cell_widths.py
+-rw-r--r-- 1 juanep 197121 140235 feb. 13 22:29 _emoji_codes.py
+-rw-r--r-- 1 juanep 197121   1064 feb. 13 22:29 _emoji_replace.py
+-rw-r--r-- 1 juanep 197121   2128 feb. 13 22:29 _export_format.py
+-rw-r--r-- 1 juanep 197121    265 feb. 13 22:29 _extension.py
+-rw-r--r-- 1 juanep 197121    799 feb. 13 22:29 _fileno.py
+-rw-r--r-- 1 juanep 197121   9655 feb. 13 22:29 _inspect.py
+-rw-r--r-- 1 juanep 197121   3225 feb. 13 22:29 _log_render.py
+-rw-r--r-- 1 juanep 197121   1236 feb. 13 22:29 _loop.py
+-rw-r--r-- 1 juanep 197121   1394 feb. 13 22:29 _null_file.py
+-rw-r--r-- 1 juanep 197121   7063 feb. 13 22:29 _palettes.py
+-rw-r--r-- 1 juanep 197121    423 feb. 13 22:29 _pick.py
+-rw-r--r-- 1 juanep 197121   5471 feb. 13 22:29 _ratio.py
+-rw-r--r-- 1 juanep 197121  19919 feb. 13 22:29 _spinners.py
+-rw-r--r-- 1 juanep 197121    351 feb. 13 22:29 _stack.py
+-rw-r--r-- 1 juanep 197121    417 feb. 13 22:29 _timer.py
+-rw-r--r-- 1 juanep 197121  22755 feb. 13 22:29 _win32_console.py
+-rw-r--r-- 1 juanep 197121   1925 feb. 13 22:29 _windows.py
+-rw-r--r-- 1 juanep 197121   2783 feb. 13 22:29 _windows_renderer.py
+-rw-r--r-- 1 juanep 197121   3404 feb. 13 22:29 _wrap.py
+-rw-r--r-- 1 juanep 197121    890 feb. 13 22:29 abc.py
+-rw-r--r-- 1 juanep 197121  10469 feb. 13 22:29 align.py
+-rw-r--r-- 1 juanep 197121   6921 feb. 13 22:29 ansi.py
+-rw-r--r-- 1 juanep 197121   3263 feb. 13 22:29 bar.py
+-rw-r--r-- 1 juanep 197121  10831 feb. 13 22:29 box.py
+-rw-r--r-- 1 juanep 197121   5130 feb. 13 22:29 cells.py
+-rw-r--r-- 1 juanep 197121  18211 feb. 13 22:29 color.py
+-rw-r--r-- 1 juanep 197121   1054 feb. 13 22:29 color_triplet.py
+-rw-r--r-- 1 juanep 197121   7131 feb. 13 22:29 columns.py
+-rw-r--r-- 1 juanep 197121 100156 feb. 13 22:29 console.py
+-rw-r--r-- 1 juanep 197121   1288 feb. 13 22:29 constrain.py
+-rw-r--r-- 1 juanep 197121   5502 feb. 13 22:29 containers.py
+-rw-r--r-- 1 juanep 197121   6630 feb. 13 22:29 control.py
+-rw-r--r-- 1 juanep 197121   8159 feb. 13 22:29 default_styles.py
+-rw-r--r-- 1 juanep 197121    972 feb. 13 22:29 diagnose.py
+-rw-r--r-- 1 juanep 197121   2501 feb. 13 22:29 emoji.py
+-rw-r--r-- 1 juanep 197121    642 feb. 13 22:29 errors.py
+-rw-r--r-- 1 juanep 197121   1683 feb. 13 22:29 file_proxy.py
+-rw-r--r-- 1 juanep 197121   2484 feb. 13 22:29 filesize.py
+-rw-r--r-- 1 juanep 197121   9586 feb. 13 22:29 highlighter.py
+-rw-r--r-- 1 juanep 197121   5031 feb. 13 22:29 json.py
+-rw-r--r-- 1 juanep 197121   3252 feb. 13 22:29 jupyter.py
+-rw-r--r-- 1 juanep 197121  14004 feb. 13 22:29 layout.py
+-rw-r--r-- 1 juanep 197121  14270 feb. 13 22:29 live.py
+-rw-r--r-- 1 juanep 197121   3666 feb. 13 22:29 live_render.py
+-rw-r--r-- 1 juanep 197121  12458 feb. 13 22:29 logging.py
+-rw-r--r-- 1 juanep 197121   8451 feb. 13 22:29 markup.py
+-rw-r--r-- 1 juanep 197121   5305 feb. 13 22:29 measure.py
+-rw-r--r-- 1 juanep 197121   4908 feb. 13 22:29 padding.py
+-rw-r--r-- 1 juanep 197121    828 feb. 13 22:29 pager.py
+-rw-r--r-- 1 juanep 197121   3396 feb. 13 22:29 palette.py
+-rw-r--r-- 1 juanep 197121  11235 feb. 13 22:29 panel.py
+-rw-r--r-- 1 juanep 197121  36391 feb. 13 22:29 pretty.py
+-rw-r--r-- 1 juanep 197121  60357 feb. 13 22:29 progress.py
+-rw-r--r-- 1 juanep 197121   8162 feb. 13 22:29 progress_bar.py
+-rw-r--r-- 1 juanep 197121  12447 feb. 13 22:29 prompt.py
+-rw-r--r-- 1 juanep 197121   1391 feb. 13 22:29 protocol.py
+-rw-r--r-- 1 juanep 197121      0 feb. 13 22:29 py.typed
+-rw-r--r-- 1 juanep 197121    166 feb. 13 22:29 region.py
+-rw-r--r-- 1 juanep 197121   4431 feb. 13 22:29 repr.py
+-rw-r--r-- 1 juanep 197121   4602 feb. 13 22:29 rule.py
+-rw-r--r-- 1 juanep 197121   2843 feb. 13 22:29 scope.py
+-rw-r--r-- 1 juanep 197121   1591 feb. 13 22:29 screen.py
+-rw-r--r-- 1 juanep 197121  24743 feb. 13 22:29 segment.py
+-rw-r--r-- 1 juanep 197121   4364 feb. 13 22:29 spinner.py
+-rw-r--r-- 1 juanep 197121   4424 feb. 13 22:29 status.py
+-rw-r--r-- 1 juanep 197121  27067 feb. 13 22:29 style.py
+-rw-r--r-- 1 juanep 197121   1258 feb. 13 22:29 styled.py
+-rw-r--r-- 1 juanep 197121  35763 feb. 13 22:29 syntax.py
+-rw-r--r-- 1 juanep 197121  40103 feb. 13 22:29 table.py
+-rw-r--r-- 1 juanep 197121   3370 feb. 13 22:29 terminal_theme.py
+-rw-r--r-- 1 juanep 197121  47552 feb. 13 22:29 text.py
+-rw-r--r-- 1 juanep 197121   3771 feb. 13 22:29 theme.py
+-rw-r--r-- 1 juanep 197121    102 feb. 13 22:29 themes.py
+-rw-r--r-- 1 juanep 197121  31797 feb. 13 22:29 traceback.py
+-rw-r--r-- 1 juanep 197121   9451 feb. 13 22:29 tree.py
+
+./venv/Lib/site-packages/pip/_vendor/rich/__pycache__:
+total 1255
+-rw-r--r-- 1 juanep 197121   6884 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  10185 feb. 13 22:29 __main__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   7882 feb. 13 22:29 _cell_widths.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 205986 feb. 13 22:29 _emoji_codes.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   1754 feb. 13 22:29 _emoji_replace.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   2359 feb. 13 22:29 _export_format.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121    549 feb. 13 22:29 _extension.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121    851 feb. 13 22:29 _fileno.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  12305 feb. 13 22:29 _inspect.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   4335 feb. 13 22:29 _log_render.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   1910 feb. 13 22:29 _loop.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   3745 feb. 13 22:29 _null_file.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   5170 feb. 13 22:29 _palettes.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121    729 feb. 13 22:29 _pick.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   6610 feb. 13 22:29 _ratio.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  13189 feb. 13 22:29 _spinners.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   1037 feb. 13 22:29 _stack.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121    878 feb. 13 22:29 _timer.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  28349 feb. 13 22:29 _win32_console.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   2576 feb. 13 22:29 _windows.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   3623 feb. 13 22:29 _windows_renderer.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   3335 feb. 13 22:29 _wrap.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   1698 feb. 13 22:29 abc.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  12582 feb. 13 22:29 align.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   9270 feb. 13 22:29 ansi.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   4343 feb. 13 22:29 bar.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  11832 feb. 13 22:29 box.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   5513 feb. 13 22:29 cells.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  26540 feb. 13 22:29 color.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   1715 feb. 13 22:29 color_triplet.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   8726 feb. 13 22:29 columns.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 113746 feb. 13 22:29 console.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   2321 feb. 13 22:29 constrain.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   9264 feb. 13 22:29 containers.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  10922 feb. 13 22:29 control.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   9634 feb. 13 22:29 default_styles.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   1504 feb. 13 22:29 diagnose.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   4260 feb. 13 22:29 emoji.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   2057 feb. 13 22:29 errors.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   3717 feb. 13 22:29 file_proxy.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   2967 feb. 13 22:29 filesize.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   9987 feb. 13 22:29 highlighter.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   5928 feb. 13 22:29 json.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   5400 feb. 13 22:29 jupyter.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  20183 feb. 13 22:29 layout.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  19648 feb. 13 22:29 live.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   4879 feb. 13 22:29 live_render.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  14029 feb. 13 22:29 logging.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   9731 feb. 13 22:29 markup.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   6208 feb. 13 22:29 measure.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   6955 feb. 13 22:29 padding.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   1895 feb. 13 22:29 pager.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   5322 feb. 13 22:29 palette.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  12756 feb. 13 22:29 panel.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  41294 feb. 13 22:29 pretty.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  75542 feb. 13 22:29 progress.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  10459 feb. 13 22:29 progress_bar.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  15818 feb. 13 22:29 prompt.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   1878 feb. 13 22:29 protocol.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121    635 feb. 13 22:29 region.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   6755 feb. 13 22:29 repr.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   6629 feb. 13 22:29 rule.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   3804 feb. 13 22:29 scope.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   2560 feb. 13 22:29 screen.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  28286 feb. 13 22:29 segment.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   6165 feb. 13 22:29 spinner.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   6036 feb. 13 22:29 status.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  34416 feb. 13 22:29 style.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   2197 feb. 13 22:29 styled.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  39848 feb. 13 22:29 syntax.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  44390 feb. 13 22:29 table.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   3416 feb. 13 22:29 terminal_theme.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  60295 feb. 13 22:29 text.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   6332 feb. 13 22:29 theme.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121    324 feb. 13 22:29 themes.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  33227 feb. 13 22:29 traceback.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  11929 feb. 13 22:29 tree.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_vendor/tomli:
+total 35
+-rw-r--r-- 1 juanep 197121   314 feb. 13 22:29 __init__.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 __pycache__/
+-rw-r--r-- 1 juanep 197121 25591 feb. 13 22:29 _parser.py
+-rw-r--r-- 1 juanep 197121  3171 feb. 13 22:29 _re.py
+-rw-r--r-- 1 juanep 197121   254 feb. 13 22:29 _types.py
+-rw-r--r-- 1 juanep 197121    26 feb. 13 22:29 py.typed
+
+./venv/Lib/site-packages/pip/_vendor/tomli/__pycache__:
+total 38
+-rw-r--r-- 1 juanep 197121   348 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 29591 feb. 13 22:29 _parser.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  4037 feb. 13 22:29 _re.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   376 feb. 13 22:29 _types.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_vendor/truststore:
+total 72
+-rw-r--r-- 1 juanep 197121  1264 feb. 13 22:29 __init__.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 __pycache__/
+-rw-r--r-- 1 juanep 197121 10555 feb. 13 22:29 _api.py
+-rw-r--r-- 1 juanep 197121 20503 feb. 13 22:29 _macos.py
+-rw-r--r-- 1 juanep 197121  2324 feb. 13 22:29 _openssl.py
+-rw-r--r-- 1 juanep 197121  1130 feb. 13 22:29 _ssl_constants.py
+-rw-r--r-- 1 juanep 197121 17993 feb. 13 22:29 _windows.py
+-rw-r--r-- 1 juanep 197121     0 feb. 13 22:29 py.typed
+
+./venv/Lib/site-packages/pip/_vendor/truststore/__pycache__:
+total 68
+-rw-r--r-- 1 juanep 197121  1386 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 16781 feb. 13 22:29 _api.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 19311 feb. 13 22:29 _macos.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  2298 feb. 13 22:29 _openssl.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  1109 feb. 13 22:29 _ssl_constants.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 16255 feb. 13 22:29 _windows.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_vendor/urllib3:
+total 177
+-rw-r--r-- 1 juanep 197121  3333 feb. 13 22:29 __init__.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 __pycache__/
+-rw-r--r-- 1 juanep 197121 11372 feb. 13 22:29 _collections.py
+-rw-r--r-- 1 juanep 197121    64 feb. 13 22:29 _version.py
+-rw-r--r-- 1 juanep 197121 20314 feb. 13 22:29 connection.py
+-rw-r--r-- 1 juanep 197121 40408 feb. 13 22:29 connectionpool.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 contrib/
+-rw-r--r-- 1 juanep 197121  8217 feb. 13 22:29 exceptions.py
+-rw-r--r-- 1 juanep 197121  8579 feb. 13 22:29 fields.py
+-rw-r--r-- 1 juanep 197121  2440 feb. 13 22:29 filepost.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 packages/
+-rw-r--r-- 1 juanep 197121 19990 feb. 13 22:29 poolmanager.py
+-rw-r--r-- 1 juanep 197121  6691 feb. 13 22:29 request.py
+-rw-r--r-- 1 juanep 197121 30641 feb. 13 22:29 response.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 util/
+
+./venv/Lib/site-packages/pip/_vendor/urllib3/__pycache__:
+total 181
+-rw-r--r-- 1 juanep 197121  3363 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 16442 feb. 13 22:29 _collections.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121   228 feb. 13 22:29 _version.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 20737 feb. 13 22:29 connection.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 36069 feb. 13 22:29 connectionpool.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 14189 feb. 13 22:29 exceptions.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 10196 feb. 13 22:29 fields.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  4005 feb. 13 22:29 filepost.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 19995 feb. 13 22:29 poolmanager.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  6977 feb. 13 22:29 request.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 34285 feb. 13 22:29 response.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_vendor/urllib3/contrib:
+total 92
+-rw-r--r-- 1 juanep 197121     0 feb. 13 22:29 __init__.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 __pycache__/
+-rw-r--r-- 1 juanep 197121   957 feb. 13 22:29 _appengine_environ.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 _securetransport/
+-rw-r--r-- 1 juanep 197121 11036 feb. 13 22:29 appengine.py
+-rw-r--r-- 1 juanep 197121  4528 feb. 13 22:29 ntlmpool.py
+-rw-r--r-- 1 juanep 197121 17081 feb. 13 22:29 pyopenssl.py
+-rw-r--r-- 1 juanep 197121 34446 feb. 13 22:29 securetransport.py
+-rw-r--r-- 1 juanep 197121  7097 feb. 13 22:29 socks.py
+
+./venv/Lib/site-packages/pip/_vendor/urllib3/contrib/__pycache__:
+total 97
+-rw-r--r-- 1 juanep 197121   208 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  1886 feb. 13 22:29 _appengine_environ.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 11778 feb. 13 22:29 appengine.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  5746 feb. 13 22:29 ntlmpool.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 24795 feb. 13 22:29 pyopenssl.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 35990 feb. 13 22:29 securetransport.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  7740 feb. 13 22:29 socks.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_vendor/urllib3/contrib/_securetransport:
+total 36
+-rw-r--r-- 1 juanep 197121     0 feb. 13 22:29 __init__.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 __pycache__/
+-rw-r--r-- 1 juanep 197121 17632 feb. 13 22:29 bindings.py
+-rw-r--r-- 1 juanep 197121 13922 feb. 13 22:29 low_level.py
+
+./venv/Lib/site-packages/pip/_vendor/urllib3/contrib/_securetransport/__pycache__:
+total 37
+-rw-r--r-- 1 juanep 197121   225 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 17511 feb. 13 22:29 bindings.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 14828 feb. 13 22:29 low_level.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_vendor/urllib3/packages:
+total 36
+-rw-r--r-- 1 juanep 197121     0 feb. 13 22:29 __init__.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 __pycache__/
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 backports/
+-rw-r--r-- 1 juanep 197121 34665 feb. 13 22:29 six.py
+
+./venv/Lib/site-packages/pip/_vendor/urllib3/packages/__pycache__:
+total 45
+-rw-r--r-- 1 juanep 197121   209 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 42029 feb. 13 22:29 six.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_vendor/urllib3/packages/backports:
+total 12
+-rw-r--r-- 1 juanep 197121    0 feb. 13 22:29 __init__.py
+drwxr-xr-x 1 juanep 197121    0 feb. 13 22:29 __pycache__/
+-rw-r--r-- 1 juanep 197121 1417 feb. 13 22:29 makefile.py
+-rw-r--r-- 1 juanep 197121 5343 feb. 13 22:29 weakref_finalize.py
+
+./venv/Lib/site-packages/pip/_vendor/urllib3/packages/backports/__pycache__:
+total 13
+-rw-r--r-- 1 juanep 197121  219 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 1943 feb. 13 22:29 makefile.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 7538 feb. 13 22:29 weakref_finalize.cpython-313.pyc
+
+./venv/Lib/site-packages/pip/_vendor/urllib3/util:
+total 125
+-rw-r--r-- 1 juanep 197121  1155 feb. 13 22:29 __init__.py
+drwxr-xr-x 1 juanep 197121     0 feb. 13 22:29 __pycache__/
+-rw-r--r-- 1 juanep 197121  4901 feb. 13 22:29 connection.py
+-rw-r--r-- 1 juanep 197121  1605 feb. 13 22:29 proxy.py
+-rw-r--r-- 1 juanep 197121   498 feb. 13 22:29 queue.py
+-rw-r--r-- 1 juanep 197121  3997 feb. 13 22:29 request.py
+-rw-r--r-- 1 juanep 197121  3510 feb. 13 22:29 response.py
+-rw-r--r-- 1 juanep 197121 22050 feb. 13 22:29 retry.py
+-rw-r--r-- 1 juanep 197121 17460 feb. 13 22:29 ssl_.py
+-rw-r--r-- 1 juanep 197121  5758 feb. 13 22:29 ssl_match_hostname.py
+-rw-r--r-- 1 juanep 197121  6895 feb. 13 22:29 ssltransport.py
+-rw-r--r-- 1 juanep 197121 10168 feb. 13 22:29 timeout.py
+-rw-r--r-- 1 juanep 197121 14296 feb. 13 22:29 url.py
+-rw-r--r-- 1 juanep 197121  5403 feb. 13 22:29 wait.py
+
+./venv/Lib/site-packages/pip/_vendor/urllib3/util/__pycache__:
+total 128
+-rw-r--r-- 1 juanep 197121  1156 feb. 13 22:29 __init__.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  4787 feb. 13 22:29 connection.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  1585 feb. 13 22:29 proxy.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  1434 feb. 13 22:29 queue.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  4154 feb. 13 22:29 request.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  3053 feb. 13 22:29 response.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 21560 feb. 13 22:29 retry.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 15509 feb. 13 22:29 ssl_.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  5228 feb. 13 22:29 ssl_match_hostname.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 10943 feb. 13 22:29 ssltransport.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 10688 feb. 13 22:29 timeout.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121 15945 feb. 13 22:29 url.cpython-313.pyc
+-rw-r--r-- 1 juanep 197121  4587 feb. 13 22:29 wait.cpython-313.pyc
+
+./venv/Lib/site-packages/pip-25.0.1.dist-info:
+total 92
+-rw-r--r-- 1 juanep 197121 11018 feb. 13 22:29 AUTHORS.txt
+-rw-r--r-- 1 juanep 197121    87 feb. 13 22:29 entry_points.txt
+-rw-r--r-- 1 juanep 197121     4 feb. 13 22:29 INSTALLER
+-rw-r--r-- 1 juanep 197121  1093 feb. 13 22:29 LICENSE.txt
+-rw-r--r-- 1 juanep 197121  3677 feb. 13 22:29 METADATA
+-rw-r--r-- 1 juanep 197121 65740 feb. 13 22:29 RECORD
+-rw-r--r-- 1 juanep 197121     0 feb. 13 22:29 REQUESTED
+-rw-r--r-- 1 juanep 197121     4 feb. 13 22:29 top_level.txt
+-rw-r--r-- 1 juanep 197121    91 feb. 13 22:29 WHEEL
+
+./venv/Scripts:
+total 865
+-rw-r--r-- 1 juanep 197121   2224 feb. 13 22:29 activate
+-rw-r--r-- 1 juanep 197121   1029 feb. 13 22:29 activate.bat
+-rw-r--r-- 1 juanep 197121   2288 feb. 13 22:29 activate.fish
+-rw-r--r-- 1 juanep 197121  27969 abr.  8  2025 Activate.ps1
+-rw-r--r-- 1 juanep 197121    393 abr.  8  2025 deactivate.bat
+-rwxr-xr-x 1 juanep 197121 108429 feb. 13 22:29 pip.exe*
+-rwxr-xr-x 1 juanep 197121 108429 feb. 13 22:29 pip3.13.exe*
+-rwxr-xr-x 1 juanep 197121 108429 feb. 13 22:29 pip3.exe*
+-rwxr-xr-x 1 juanep 197121 254696 abr.  8  2025 python.exe*
+-rwxr-xr-x 1 juanep 197121 250360 abr.  8  2025 pythonw.exe*

@@ -4,8 +4,8 @@
 import sys
 from PySide6.QtWidgets import (QMainWindow, QApplication, QSizeGrip, QMessageBox, QWidget,
                                QLineEdit, QComboBox, QTextEdit, QDateEdit, QTimeEdit)
-from PySide6.QtCore import Qt, QPropertyAnimation, QEasingCurve, QPoint, QDate, QTime, QRegularExpression
-from PySide6.QtGui import QPixmap, QRegularExpressionValidator
+from PySide6.QtCore import Qt, QPropertyAnimation, QEasingCurve, QPoint, QDate, QTime
+from PySide6.QtGui import QPixmap
 from ui_Main import Ui_MainWindow
 from database_manager import DatabaseManager
 import system_info
@@ -76,10 +76,6 @@ class ArkApp(QMainWindow):
         for te in self.findChildren(QTimeEdit):
             te.setTime(QTime.currentTime())
         
-        # Definir la expresión regular para un correo válido
-        email_re = QRegularExpression(r"^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$")
-        validator = QRegularExpressionValidator(email_re, self)
-        
         #Verificación de Base de Datos (Botón en Configuración)
         self.db_mgr = DatabaseManager(db_folder="arkcogendatabase", db_name="arkcogenDB.sqlite")
         self.ui.btn_config_sql_tools.clicked.connect(self.check_database_status)
@@ -129,18 +125,7 @@ class ArkApp(QMainWindow):
         self.ui.btn_add_levels.clicked.connect(self.action_include_levels)
         self.ui.btn_save_levels.clicked.connect(self.save_levels)
         self.ui.btn_cancel_levels.clicked.connect(self.action_cancel_levels)
-        # Código para validar correos electrónicos en tiempo real 
-        self.ui.lineEdit_emp_contact_email.setValidator(validator)
-        self.ui.lineEdit_emp_company_email.setValidator(validator)
-        self.ui.lineEdit_usr_email.setValidator(validator)
-        self.ui.lineEdit_clt_company_email.setValidator(validator)
-        self.ui.lineEdit_clt_contact_email.setValidator(validator)
-        # Conectar el evento para forzar minúsculas en tiempo real
-        self.ui.lineEdit_emp_contact_email.textChanged.connect(lambda: self.force_lowercase(self.ui.lineEdit_emp_contact_email))
-        self.ui.lineEdit_emp_company_email.textChanged.connect(lambda: self.force_lowercase(self.ui.lineEdit_emp_company_email))
-        self.ui.lineEdit_usr_email.textChanged.connect(lambda: self.force_lowercase(self.ui.lineEdit_usr_email))
-        self.ui.lineEdit_clt_contact_email.textChanged.connect(lambda: self.force_lowercase(self.ui.lineEdit_clt_contact_email))
-        self.ui.lineEdit_clt_company_email.textChanged.connect(lambda: self.force_lowercase(self.ui.lineEdit_clt_company_email))
+
         
     # ------------FUNCIONES DE LA INTERFAZ GRAFICA------------
     # Permite guardar la posición del mouse cuando se presiona el botón izquierdo, para luego usar esa posición para mover la ventana.
@@ -196,13 +181,6 @@ class ArkApp(QMainWindow):
         self.showMaximized()
         self.ui.btn_maximize.hide()
         self.ui.btn_restore.show()
-    
-    # Método para forzar texto en minúsculas en un QLineEdit de los correos sin perder la posición del cursor    
-    def force_lowercase(self, line_edit):
-        """Fuerza el texto a minúsculas sin perder la posición del cursor."""
-        cursor_pos = line_edit.cursorPosition()
-        line_edit.setText(line_edit.text().lower())
-        line_edit.setCursorPosition(cursor_pos)
     
     # --- MÉTODOS DE ACCIÓN (SLOTS) ---
     # ============GESTION DE EMPRESAS============
@@ -483,7 +461,7 @@ class ArkApp(QMainWindow):
             id_rep          = self.ui.lineEdit_emp_legal_representative_id.text().strip()
             tel_rep         = self.ui.lineEdit_emp_contact_phone.text().strip()
             email_rep       = self.ui.lineEdit_emp_contact_email.text().strip()
-            email_emp       = self.ui.lineEdit_emp_company_email.text().strip()            
+            email_emp       = self.ui.lineEdit_emp_company_email.text().strip()
             tipo_taxpayer   = self.ui.cmb_emp_tipo_taxpayer.currentIndex()
             creation_date   = self.ui.dateEdit_creation_date.date().toString("yyyy-MM-dd")
 
@@ -565,22 +543,23 @@ class ArkApp(QMainWindow):
         try:
             # 1. Recolección de datos desde los widgets de PySide6
             # Nota: Usamos .strip() en textos para evitar espacios accidentales
-            code         = self.ui.lineEdit_clt_code.text().strip()
+            code       = self.ui.lineEdit_clt_code.text().strip()
             description  = self.ui.lineEdit_clt_description.text().strip()
-            tax_id        = self.ui.lineEdit_clt_tax_id.text().strip() 
-            status       = self.ui.cmb_clt_status.currentIndex()  
-            direccion_f  = self.ui.textEdit_clt_tax_address.toPlainText().strip()
-            direccion_l  = self.ui.textEdit_clt_local_address.toPlainText().strip()
-            tel1         = self.ui.lineEdit_clt_phone.text().strip()
-            tel2         = self.ui.lineEdit_clt_movile.text().strip()
-            rep          = self.ui.lineEdit_clt_legal_representative.text().strip()
-            id_rep       = self.ui.lineEdit_clt_legal_representative_id.text().strip()
-            tel_cont     = self.ui.lineEdit_clt_contact_phone.text().strip()
-            email_cont   = self.ui.lineEdit_clt_contact_email.text().strip()
-            email_emp    = self.ui.lineEdit_clt_company_email.text().strip()
-            tipo_cont    = self.ui.cmb_clt_type_taxpayer.currentIndex()
-            origen       = self.ui.cmb_clt_origen.currentText()
-            creation_date   = self.ui.dateEdit_clt_creation_date.date().toString("yyyy-MM-dd")
+            tax_id    = self.ui.lineEdit_clt_idfiscaliscal.text().strip() # Según tu nombre con typo 'iscal'
+            status       = self.ui.cmb_clt_status.currentIndex()             # INTEGER
+            direccion_f  = self.ui.textEdit_clt_direccionF.toPlainText().strip()
+            direccion_l  = self.ui.textEdit_clt_direccionL.toPlainText().strip()
+            tel1         = self.ui.lineEdit_clt_telefono1.text().strip()
+            tel2         = self.ui.lineEdit_clt_telefono2.text().strip()
+            rep          = self.ui.lineEdit_clt_representante.text().strip()
+            id_rep       = self.ui.lineEdit_clt_idrepresentante.text().strip()
+            tel_cont     = self.ui.lineEdit_clt_telefonocontacto.text().strip()
+            email_cont   = self.ui.lineEdit_clt_emailcontacto.text().strip()
+            email_emp    = self.ui.lineEdit_clt_emailempresa.text().strip()
+            tipo_cont    = self.ui.cmb_clt_tipocontribuyente.currentIndex()  # INTEGER
+            origen       = self.ui.cmb_clt_origen.currentText()              # TEXT
+            code_orig  = "" # Puedes vincularlo a un widget si lo creas luego
+            creation_date   = self.ui.dateEdit_clt_fechacreacion.date().toString("yyyy-MM-dd")
             
             # Seccion de auditoría del sistema
             f_system  = system_info.get_date_audit()
@@ -596,10 +575,6 @@ class ArkApp(QMainWindow):
             if not code:
                 QMessageBox.warning(self, "Validación", "El Código del cliente es obligatorio.")
                 return
-            if not self.ui.lineEdit_clt_company_email.hasAcceptableInput():
-                QMessageBox.warning(self, "Error de Formato", "El correo de la empresa no es válido.")
-                self.ui.lineEdit_clt_company_email.setFocus()
-                return # <--- Esto evita que el código llegue al INSERT
 
             # 3. Preparación de la consulta SQL
             sql = """
@@ -646,25 +621,25 @@ class ArkApp(QMainWindow):
         # 1. Limpiar QLineEdits y QTextEdits
         self.ui.lineEdit_clt_code.clear()
         self.ui.lineEdit_clt_description.clear()
-        self.ui.lineEdit_clt_tax_id.clear()
-        self.ui.lineEdit_clt_phone.clear()
-        self.ui.lineEdit_clt_movile.clear()
-        self.ui.lineEdit_clt_legal_representative.clear()
-        self.ui.lineEdit_clt_legal_representative_id.clear()
-        self.ui.lineEdit_clt_contact_phone.clear()
-        self.ui.lineEdit_clt_contact_email.clear()
-        self.ui.lineEdit_clt_company_email.clear()
+        self.ui.lineEdit_clt_idfiscaliscal.clear()
+        self.ui.lineEdit_clt_telefono1.clear()
+        self.ui.lineEdit_clt_telefono2.clear()
+        self.ui.lineEdit_clt_representante.clear()
+        self.ui.lineEdit_clt_idrepresentante.clear()
+        self.ui.lineEdit_clt_telefonocontacto.clear()
+        self.ui.lineEdit_clt_emailcontacto.clear()
+        self.ui.lineEdit_clt_emailempresa.clear()
         
-        self.ui.textEdit_clt_tax_address.clear()
-        self.ui.textEdit_clt_local_address.clear()
+        self.ui.textEdit_clt_direccionF.clear()
+        self.ui.textEdit_clt_direccionL.clear()
 
         # 2. Resetear QComboBoxes al primer elemento (índice 0)
         self.ui.cmb_clt_status.setCurrentIndex(0)
-        self.ui.cmb_clt_type_taxpayer.setCurrentIndex(0)
+        self.ui.cmb_clt_tipocontribuyente.setCurrentIndex(0)
         self.ui.cmb_clt_origen.setCurrentIndex(0)
 
         # 3. Resetear QDateEdit a la fecha actual
-        self.ui.dateEdit_clt_creation_date.setDate(QDate.currentDate())
+        self.ui.dateEdit_clt_fechacreacion.setDate(QDate.currentDate())
 
         # 4. (Opcional) Poner el foco de nuevo en el primer campo
         self.ui.lineEdit_clt_code.setFocus()
@@ -689,9 +664,6 @@ class ArkApp(QMainWindow):
             rol         = self.ui.lineEdit_usr_role.text().strip()            
             password    = self.ui.lineEdit_usr_password_in.text().strip()
             rpassword   = self.ui.lineEdit_usr_password_confirm.text().strip()
-            if password != rpassword:
-                QMessageBox.warning(self, "Error de validación", "Las contraseñas no coinciden.")
-                return
             
             # Seccion de auditoría del sistema
             f_system  = system_info.get_date_audit()
@@ -715,8 +687,14 @@ class ArkApp(QMainWindow):
                     usr_Rol, usr_Emailuser, usr_Password,rpassword,
                     usr_systemdate, usr_systemtime, usr_namemachine, usr_usercreator,
                     usr_lastupdatedate, usr_lastupdatetime, usr_lastmachine, usr_userlastupdate
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """
+            
+            f_system = QDate.currentDate().toString("yyyy-MM-dd")
+            h_system = QTime.currentTime().toString("HH:mm:ss")
+            computer_name = os.environ.get("COMPUTERNAME", "Desconocido")
+            user = os.environ.get("USERNAME", "Desconocido")
+
             params = (
                 code, usuario, description, status, tel1, 
                 cargo, rol, email, password, rpassword,
@@ -779,8 +757,8 @@ class ArkApp(QMainWindow):
             type            = self.ui.cmb_lvs_type.currentText()
             digits          = self.ui.spinBox_lvs_Number_of_digits.value()
             separator       = self.ui.cmb_lvs_separator.text().strip()
-            especiales     = "True" if self.ui.cb_lvs_Special_characters.isChecked() else "False"
-            alphanumeric   = "True" if self.ui.cb_lvs_Special_alphanumeric.isChecked() else "False"
+            especiales      = self.ui.cb_lvs_Special_characters.toPlainText().strip()
+            alphanumeric    = self.ui.cb_lvs_Special_alphanumeric.toPlainText().strip()
             status          = self.ui.cmb_lvs_status.currentIndex()
             parent          = self.ui.lineEdit_lvs_level_parente.text().strip()
             Code            = self.ui.lineEdit_lvs_code.text().strip()
@@ -805,11 +783,17 @@ class ArkApp(QMainWindow):
                 INSERT INTO ark_levels (
                     lvs_Descripcion, lvs_descriptionTec, lvs_level_type, lvs_Number_of_digits,
                     lvs_Level_separator, lvs_Special_characters, lvs_Alphanumeric, lvs_Status,
-                    lvs_level_parente, lvs_code,
+                    lvs_level_parente, lvs_code
                     lvs_systemdate, lvs_systemtime, lvs_namemachine, lvs_usercreator,
                     lvs_lastupdatedate, lvs_lastupdatetime, lvs_lastmachine, lvs_userlastupdate
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """
+            
+            f_system = QDate.currentDate().toString("yyyy-MM-dd")
+            h_system = QTime.currentTime().toString("HH:mm:ss")
+            computer_name = os.environ.get("COMPUTERNAME", "Desconocido")
+            user = os.environ.get("USERNAME", "Desconocido")
+
             params = (
                 description, descriptiontec, type, digits, separator,
                 especiales, alphanumeric, status, parent, Code,
@@ -840,15 +824,15 @@ class ArkApp(QMainWindow):
         self.ui.lineEdit_lvs_level_parente.clear()
         self.ui.lineEdit_lvs_code.clear()
         self.ui.cmb_lvs_separator.setCurrentIndex(0)
-        self.ui.cb_lvs_Special_characters.setChecked(False)
-        self.ui.cb_lvs_Special_alphanumeric.setChecked(False)
+        self.ui.cb_lvs_Special_characters.clear()
+        self.ui.cb_lvs_Special_alphanumeric.clear()
 
         # 2. Resetear QComboBoxes al primer elemento (índice 0)
         self.ui.cmb_lvs_type.setCurrentIndex(0)
         self.ui.cmb_lvs_status.setCurrentIndex(0)
 
         # 3. Resetear QSpinBox a su valor mínimo
-        self.ui.spinBox_lvs_Number_of_digits.setValue(1)
+        self.ui.spinBox_lvs_Number_of_digits.setValue(self.ui.spinBox_lvs_Number_of_digits.minimum())
 
         # 4. (Opcional) Poner el foco de nuevo en el primer campo
         self.ui.lineEdit_lvs_description.setFocus()
